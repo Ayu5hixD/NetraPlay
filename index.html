@@ -51,6 +51,7 @@
           animation: {
             'fade-in': 'fadeIn 0.5s ease-in-out',
             'slide-in-up': 'slideInUp 0.5s ease-out',
+            'scale-in': 'scaleIn 0.3s ease-out',
           },
           keyframes: {
             fadeIn: {
@@ -60,6 +61,10 @@
             slideInUp: {
               '0%': { transform: 'translateY(20px)', opacity: 0 },
               '100%': { transform: 'translateY(0)', opacity: 1 },
+            },
+            scaleIn: {
+              '0%': { transform: 'scale(0.95)', opacity: 0 },
+              '100%': { transform: 'scale(1)', opacity: 1 },
             }
           }
         }
@@ -129,6 +134,23 @@
     /* Hide element while animating */
     .animate-hidden {
       opacity: 0;
+    }
+
+    /* Modal styles */
+    #warning-modal {
+      display: none;
+      /* Hidden by default */
+      position: fixed;
+      z-index: 100;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.7);
+      align-items: center;
+      justify-content: center;
+      animation: fadeIn 0.3s ease;
     }
   </style>
 </head>
@@ -468,6 +490,30 @@
     </div>
   </footer>
 
+  <!-- ===== WARNING MODAL ===== -->
+  <div id="warning-modal">
+    <div class="glass-card max-w-md w-full m-4 p-6 md:p-8 animate-scale-in">
+      <div class="flex justify-between items-center mb-4">
+        <h2 class="text-2xl font-bold text-yellow-400"><i class="fa-solid fa-triangle-exclamation mr-2"></i> Warning
+        </h2>
+        <button id="modal-close-btn" class="text-gray-500 hover:text-white transition">&times;</button>
+      </div>
+      <p id="modal-text" class="text-gray-300 mb-6">
+        <!-- Dynamic text will go here -->
+      </p>
+      <div class="flex justify-end gap-4">
+        <button id="modal-cancel-btn"
+          class="bg-gray-600 text-white font-semibold px-5 py-2 rounded-lg hover:bg-gray-700 transition">
+          Cancel
+        </button>
+        <a id="modal-confirm-download-btn" href="#"
+          class="bg-red-600 text-white font-semibold px-5 py-2 rounded-lg hover:bg-red-700 transition">
+          Download Anyway
+        </a>
+      </div>
+    </div>
+  </div>
+
   <!-- ===== JAVASCRIPT ===== -->
   <script>
     // --- 1. DYNAMIC APP DATA ---
@@ -528,12 +574,25 @@
     function renderAppUpdates() {
       const container = document.getElementById('timeline-container');
       const loadingEl = document.getElementById('timeline-loading');
-      if (!container || appUpdatesData.length === 0) return;
+      if (!container || appUpdatesData.length === 0) return; // Safety check
 
       let allUpdatesHtml = "";
 
       appUpdatesData.forEach((update, index) => {
         const changelogHtml = update.changelog.map(getChangelogItemHtml).join('');
+
+        let downloadButtonHtml = '';
+        if (index === 0) {
+          downloadButtonHtml = `
+            <a href="${update.downloadUrl}" class="inline-block bg-primary-500 text-white font-semibold px-5 py-2 rounded-lg hover:bg-primary-600 transition duration-300 shadow-lg shadow-primary-500/30 mt-4">
+              <i class="fa-solid fa-download mr-2"></i> Download (Latest)
+            </a>`;
+        } else {
+          downloadButtonHtml = `
+            <button data-download-url="${update.downloadUrl}" data-version="${update.version}" class="inline-block bg-gray-600 text-white font-semibold px-5 py-2 rounded-lg hover:bg-gray-700 transition duration-300 mt-4 download-old-version-btn">
+              <i class="fa-solid fa-download mr-2"></i> Download ${update.version}
+            </button>`;
+        }
 
         allUpdatesHtml += `
           <div class="relative pl-8 sm:pl-12 animate-slide-in-up animate-hidden" style="animation-delay: ${index * 100}ms;">
@@ -548,6 +607,9 @@
               <h2 class="text-2xl font-bold text-white mb-3">${update.version}</h2>
               <div class="space-y-2 text-gray-300">
                 ${changelogHtml}
+              </div>
+              <div class="mt-4 pt-4 border-t border-gray-700/50">
+                ${downloadButtonHtml}
               </div>
             </div>
           </div>
@@ -573,6 +635,14 @@
       const pages = document.querySelectorAll('[data-page]');
       const mobileMenuBtn = document.getElementById('mobile-menu-btn');
       const mobileMenu = document.getElementById('mobile-menu');
+
+      // --- Modal Elements ---
+      const modal = document.getElementById('warning-modal');
+      const modalCloseBtn = document.getElementById('modal-close-btn');
+      const modalCancelBtn = document.getElementById('modal-cancel-btn');
+      const modalConfirmBtn = document.getElementById('modal-confirm-download-btn');
+      const modalText = document.getElementById('modal-text');
+      const timelineContainer = document.getElementById('timeline-container');
 
       // --- Initial Data Renders ---
       fetchAppUpdates();
@@ -671,6 +741,38 @@
       if (!window.location.hash) {
         window.location.hash = '#home';
       }
+
+      // Listen for clicks on old download buttons (using event delegation)
+      timelineContainer.addEventListener('click', function (e) {
+        if (e.target && e.target.classList.contains('download-old-version-btn')) {
+          const url = e.target.getAttribute('data-download-url');
+          const version = e.target.getAttribute('data-version');
+
+          // Populate modal
+          modalText.innerHTML = `You are about to download an older version (<strong>${version}</strong>). We recommend using the latest version for the best features and security.`;
+          modalConfirmBtn.href = url;
+
+          // Show modal
+          modal.style.display = 'flex';
+        }
+      });
+
+      // Function to hide modal
+      function hideModal() {
+        modal.style.display = 'none';
+        modalConfirmBtn.href = "#"; // Clear href
+      }
+
+      // Add listeners to close buttons
+      modalCloseBtn.addEventListener('click', hideModal);
+      modalCancelBtn.addEventListener('click', hideModal);
+
+      // Also close modal if clicking outside the content
+      modal.addEventListener('click', function (e) {
+        if (e.target === modal) {
+          hideModal();
+        }
+      });
 
     });
   </script>
