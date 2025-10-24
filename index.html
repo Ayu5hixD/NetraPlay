@@ -5,26 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NetraPlay - Movies & Live TV</title>
-  <meta name="description"
-    content="NetraPlay - Your ultimate streaming app for movies, TV shows, and live TV channels. All your entertainment in one place.">
-  <meta name="author" content="NetraPlay Team">
-  <link rel="icon" type="image/x-icon" href="https://i.ibb.co/6x551xw/app-icon.png">
-
-  <!-- 1. Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- 2. Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <!-- 3. Google Font: Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
     rel="stylesheet">
 
-  <!-- 4. Custom Tailwind Configuration & Styles -->
+  <!-- Custom Tailwind Configuration & Styles -->
   <script>
     tailwind.config = {
       darkMode: 'class',
@@ -72,7 +62,6 @@
     }
   </script>
 
-  <!-- 5. Page Navigation Styles -->
   <style>
     /* Base styles */
     body {
@@ -157,14 +146,13 @@
 
 <body class="antialiased">
 
-  <!-- ===== HEADER / NAVIGATION ===== -->
   <header class="fixed top-0 left-0 right-0 z-50 bg-opacity-80 backdrop-blur-lg border-b border-gray-800"
     style="background-color: rgba(11, 17, 32, 0.8);">
     <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-20">
         <!-- Logo -->
         <a href="#home" data-navlink="home" class="flex-shrink-0 flex items-center">
-          <img src="https://i.ibb.co/6x551xw/app-icon.png" alt="NetraPlay Logo" class="w-8 h-8 mr-2">
+          <i class="fa-solid fa-play-circle text-primary-400 text-3xl mr-2"></i>
           <span class="font-black text-2xl text-white">NetraPlay</span>
         </a>
 
@@ -212,7 +200,7 @@
   </header>
 
   <!-- ===== MAIN CONTENT ===== -->
-  <main class="pt-20"> <!-- Padding to offset fixed header -->
+  <main class="pt-20">
 
     <!-- ===== PAGE: HOME ===== -->
     <section data-page="home" id="home">
@@ -234,7 +222,6 @@
           </p>
           <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
             <a href="#" class="download-app-link w-full sm:w-auto bg-primary-500 text-white font-semibold px-8 py-4 rounded-lg
-              class=" download-app-link w-full sm:w-auto bg-primary-500 text-white font-semibold px-8 py-4 rounded-lg
               hover:bg-primary-600 transition duration-300 shadow-lg shadow-primary-500/30 text-lg">
               Download the App
             </a>
@@ -245,82 +232,72 @@
       <!-- Featured Screenshots -->
       <div class="container mx-auto px-4 sm:px-6 lg:px-8 -mt-20 z-10 relative">
         <h2 class="text-2xl font-bold text-white mb-4 ml-2">App Screenshots</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-          <!-- Placeholder images simulating app screenshots -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 md:gap-6">
           <div
-            class="aspect-video bg-gray-800 rounded-lg overflow-hidden transition duration-300 transform hover:scale-105 hover:shadow-2xl animate-fade-in"
+            class="aspect-[9/16] rounded-lg overflow-hidden transition duration-300 transform hover:scale-105 hover:shadow-2xl animate-fade-in"
             style="animation-delay: 100ms;">
-            <img src="https://placehold.co/1280x720/1e3a8a/FFF?text=App+Home+Screen" alt="App Home Screen"
-              class="w-full h-full object-cover">
+            <img src="./assets/np1.png" alt="App Home Screen" class="h-full contain">
           </div>
           <div
-            class="aspect-video bg-gray-800 rounded-lg overflow-hidden transition duration-300 transform hover:scale-105 hover:shadow-2xl animate-fade-in"
+            class="aspect-[9/16] rounded-lg overflow-hidden transition duration-300 transform hover:scale-105 hover:shadow-2xl animate-fade-in"
             style="animation-delay: 200ms;">
-            <img src="https://placehold.co/1280x720/0c4a6e/FFF?text=Live+TV+Guide" alt="Live TV Guide"
-              class="w-full h-full object-cover">
+            <img src="./assets/np2.png" alt="Live TV Guide" class="h-full contain">
           </div>
           <div
-            class="aspect-video bg-gray-800 rounded-lg overflow-hidden transition duration-300 transform hover:scale-105 hover:shadow-2xl animate-fade-in"
+            class="aspect-[9/16] rounded-lg overflow-hidden transition duration-300 transform hover:scale-105 hover:shadow-2xl animate-fade-in"
             style="animation-delay: 300ms;">
-            <img src="https://placehold.co/1280x720/5b21b6/FFF?text=Movie+Details+Page" alt="Movie Details Page"
-              class="w-full h-full object-cover">
+            <img src="./assets/np3.png" alt="Movie Details Page" class="h-full contain">
           </div>
           <div
-            class="aspect-video bg-gray-800 rounded-lg overflow-hidden transition duration-300 transform hover:scale-105 hover:shadow-2xl animate-fade-in"
+            class="aspect-[9/16] rounded-lg overflow-hidden transition duration-300 transform hover:scale-105 hover:shadow-2xl animate-fade-in"
             style="animation-delay: 400ms;">
-            <img src="https://placehold.co/1280x720/047857/FFF?text=Search+Functionality" alt="Search Functionality"
-              class="w-full h-full object-cover">
+            <img src="./assets/np4.png" alt="Search Results" class="h-full contain">
           </div>
           <div
-            class="aspect-video bg-gray-800 rounded-lg overflow-hidden transition duration-300 transform hover:scale-105 hover:shadow-2xl animate-fade-in"
+            class="aspect-[9/16] rounded-lg overflow-hidden transition duration-300 transform hover:scale-105 hover:shadow-2xl animate-fade-in"
             style="animation-delay: 500ms;">
-            <img src="https://placehold.co/1280x720/9d174d/FFF?text=User+Profile+Screen" alt="User Profile Screen"
-              class="w-full h-full object-cover">
+            <img src="./assets/np5.png" alt="User Profile" class="h-full contain">
           </div>
           <div
-            class="aspect-video bg-gray-800 rounded-lg overflow-hidden transition duration-300 transform hover:scale-105 hover:shadow-2xl animate-fade-in"
+            class="aspect-[9/16] rounded-lg overflow-hidden transition duration-300 transform hover:scale-105 hover:shadow-2xl animate-fade-in"
             style="animation-delay: 600ms;">
-            <img src="https://placehold.co/1280x720/ea580c/FFF?text=Settings+Page" alt="Settings Page"
-              class="w-full h-full object-cover">
+            <img src="./assets/np6.png" alt="Settings" class="h-full contain">
           </div>
         </div>
+      </div>
 
-        <!-- Features Section -->
-        <div class="py-24 sm:py-32">
-          <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
-              <div class="flex flex-col items-center animate-slide-in-up animate-hidden"
-                style="animation-delay: 100ms;">
-                <div
-                  class="flex items-center justify-center w-16 h-16 bg-primary-500/10 rounded-full mb-4 ring-2 ring-primary-500/30">
-                  <i class="fa-solid fa-tv text-primary-400 text-3xl"></i>
-                </div>
-                <h3 class="text-xl font-bold text-white mb-2">Live TV Channels</h3>
-                <p class="text-gray-400">Stream 100+ channels of live sports, news, and entertainment. No cable box
-                  required.</p>
+      <!-- Features Section -->
+      <div class="py-24 sm:py-32">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+            <div class="flex flex-col items-center animate-slide-in-up animate-hidden" style="animation-delay: 100ms;">
+              <div
+                class="flex items-center justify-center w-16 h-16 bg-primary-500/10 rounded-full mb-4 ring-2 ring-primary-500/30">
+                <i class="fa-solid fa-tv text-primary-400 text-3xl"></i>
               </div>
-              <div class="flex flex-col items-center animate-slide-in-up animate-hidden"
-                style="animation-delay: 200ms;">
-                <div
-                  class="flex items-center justify-center w-16 h-16 bg-primary-500/10 rounded-full mb-4 ring-2 ring-primary-500/30">
-                  <i class="fa-solid fa-film text-primary-400 text-3xl"></i>
-                </div>
-                <h3 class="text-xl font-bold text-white mb-2">On-Demand Library</h3>
-                <p class="text-gray-400">Get instant access to thousands of movies and full TV series, updated weekly.
-                </p>
+              <h3 class="text-xl font-bold text-white mb-2">Live TV Channels</h3>
+              <p class="text-gray-400">Stream 100+ channels of live sports, news, and entertainment. No cable box
+                required.</p>
+            </div>
+            <div class="flex flex-col items-center animate-slide-in-up animate-hidden" style="animation-delay: 200ms;">
+              <div
+                class="flex items-center justify-center w-16 h-16 bg-primary-500/10 rounded-full mb-4 ring-2 ring-primary-500/30">
+                <i class="fa-solid fa-film text-primary-400 text-3xl"></i>
               </div>
-              <div class="flex flex-col items-center animate-slide-in-up animate-hidden"
-                style="animation-delay: 300ms;">
-                <div
-                  class="flex items-center justify-center w-16 h-16 bg-primary-500/10 rounded-full mb-4 ring-2 ring-primary-500/30">
-                  <i class="fa-solid fa-mobile-screen-button text-primary-400 text-3xl"></i>
-                </div>
-                <h3 class="text-xl font-bold text-white mb-2">Watch Anywhere</h3>
-                <p class="text-gray-400">Available on your favorite devices. Watch at home or on the go.</p>
+              <h3 class="text-xl font-bold text-white mb-2">On-Demand Library</h3>
+              <p class="text-gray-400">Get instant access to thousands of movies and full TV series, updated weekly.</p>
+            </div>
+            <div class="flex flex-col items-center animate-slide-in-up animate-hidden" style="animation-delay: 300ms;">
+              <div
+                class="flex items-center justify-center w-16 h-16 bg-primary-500/10 rounded-full mb-4 ring-2 ring-primary-500/30">
+                <i class="fa-solid fa-mobile-screen-button text-primary-400 text-3xl"></i>
               </div>
+              <h3 class="text-xl font-bold text-white mb-2">Watch Anywhere</h3>
+              <p class="text-gray-400">Available on your favorite devices. Watch at home or on the go.</p>
             </div>
           </div>
         </div>
+      </div>
     </section>
 
     <!-- ===== PAGE: ABOUT US ===== -->
@@ -421,6 +398,7 @@
               sources. We are not responsible for the legality, accuracy, or privacy practices of these external
               sources.</p>
 
+            D
             <h2>5. DMCA & Copyright</h2>
             <p>NetraPlay respects intellectual property rights. As we do not host any content, we act as a player and
               aggregator. If you are a copyright holder and believe content accessible through our app infringes your
@@ -447,7 +425,6 @@
           <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-10 text-center">App Updates & Changelog</h1>
 
           <!-- Timeline Structure -->
-          <!-- This content will be dynamically generated by JavaScript -->
           <div id="timeline-container" class="space-y-12">
             <div id="timeline-loading" class="text-center">
               <i class="fa-solid fa-spinner fa-spin text-primary-400 text-3xl"></i>
@@ -466,7 +443,7 @@
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div class="flex flex-col md:flex-row justify-between items-center">
         <div class="flex items-center mb-6 md:mb-0">
-          <img src="https://i.ibb.co/6x551xw/app-icon.png" alt="NetraPlay Logo" class="w-8 h-8 mr-2">
+          <i class="fa-solid fa-play-circle text-primary-400 text-2xl mr-2"></i>
           <span class="font-black text-xl text-white">NetraPlay</span>
         </div>
 
@@ -514,16 +491,16 @@
     </div>
   </div>
 
+
   <!-- ===== JAVASCRIPT ===== -->
   <script>
-    // --- 1. DYNAMIC APP DATA ---
     let appUpdatesData = [];
     async function fetchAppUpdates() {
       const dataUrl = "https://gist.githubusercontent.com/Ayu5hixD/8d4437e8245295ea03c1cf24b4b44531/raw/netraplay_app_updates.json";
       const loadingEl = document.getElementById('timeline-loading');
 
       try {
-        const response = await fetch(dataUrl, { cache: "no-cache" });
+        const response = await fetch(dataUrl, { cache: "no-cache" }); // No-cache to get latest
         if (!response.ok) {
           throw new Error(`Network response was not ok: ${response.statusText}`);
         }
@@ -547,10 +524,16 @@
       }
     }
 
-    // --- 2. FUNCTION TO UPDATE DOWNLOAD LINKS ---
+
     function updateDownloadLinks() {
-      if (appUpdatesData.length === 0) return;
-      const latestUrl = appUpdatesData[0].downloadUrl;
+      if (appUpdatesData.length === 0) return; // Don't run if data isn't loaded
+
+      const latestUrl = appUpdatesData[0].downloadUrl[0].universal;
+      if (!latestUrl) {
+        console.error("Latest 'universal' download link not found in data.");
+        return;
+      }
+
       const downloadButtons = document.querySelectorAll('.download-app-link');
       downloadButtons.forEach(button => {
         button.href = latestUrl;
@@ -570,7 +553,6 @@
       return `<p><span class="${colorClass} font-semibold">[${item.type}]</span> ${item.text}</p>`;
     }
 
-    // --- 4. FUNCTION TO RENDER APP UPDATES TIMELINE ---
     function renderAppUpdates() {
       const container = document.getElementById('timeline-container');
       const loadingEl = document.getElementById('timeline-loading');
@@ -580,19 +562,33 @@
 
       appUpdatesData.forEach((update, index) => {
         const changelogHtml = update.changelog.map(getChangelogItemHtml).join('');
+        let downloadButtonHtml = '<div class="flex flex-wrap gap-2">';
+        const links = update.downloadUrl[0]; // Get the object with arch links
 
-        let downloadButtonHtml = '';
         if (index === 0) {
-          downloadButtonHtml = `
-            <a href="${update.downloadUrl}" class="inline-block bg-primary-500 text-white font-semibold px-5 py-2 rounded-lg hover:bg-primary-600 transition duration-300 shadow-lg shadow-primary-500/30 mt-4">
-              <i class="fa-solid fa-download mr-2"></i> Download (Latest)
-            </a>`;
+          Object.keys(links).forEach(arch => {
+            const url = links[arch];
+            const isUniversal = arch === 'universal';
+            const colorClass = isUniversal
+              ? 'bg-primary-500 hover:bg-primary-600 shadow-lg shadow-primary-500/30'
+              : 'bg-gray-600 hover:bg-gray-700';
+
+            downloadButtonHtml += `
+              <a href="${url}" class="inline-block ${colorClass} text-white font-semibold px-4 py-2 text-sm rounded-lg transition duration-300">
+                <i class="fa-solid fa-download mr-1"></i> ${arch}
+              </a>`;
+          });
         } else {
-          downloadButtonHtml = `
-            <button data-download-url="${update.downloadUrl}" data-version="${update.version}" class="inline-block bg-gray-600 text-white font-semibold px-5 py-2 rounded-lg hover:bg-gray-700 transition duration-300 mt-4 download-old-version-btn">
-              <i class="fa-solid fa-download mr-2"></i> Download ${update.version}
-            </button>`;
+          Object.keys(links).forEach(arch => {
+            const url = links[arch];
+            downloadButtonHtml += `
+              <button data-download-url="${url}" data-version="${update.version}" data-arch="${arch}" class="download-old-version-btn inline-block bg-gray-600 hover:bg-gray-700 text-white font-semibold px-4 py-2 text-sm rounded-lg transition duration-300">
+                <i class="fa-solid fa-download mr-1"></i> ${arch}
+              </button>`;
+          });
         }
+
+        downloadButtonHtml += '</div>';
 
         allUpdatesHtml += `
           <div class="relative pl-8 sm:pl-12 animate-slide-in-up animate-hidden" style="animation-delay: ${index * 100}ms;">
@@ -608,7 +604,7 @@
               <div class="space-y-2 text-gray-300">
                 ${changelogHtml}
               </div>
-              <div class="mt-4 pt-4 border-t border-gray-700/50">
+              <div class="mt-6 pt-4 border-t border-gray-700/50">
                 ${downloadButtonHtml}
               </div>
             </div>
@@ -626,8 +622,6 @@
       });
     }
 
-
-    // --- 5. MAIN DOM EVENT LISTENER ---
     document.addEventListener('DOMContentLoaded', () => {
       const navLinks = document.querySelectorAll('[data-navlink]');
       const mobileNavLinks = document.querySelectorAll('.nav-link-mobile');
@@ -635,8 +629,6 @@
       const pages = document.querySelectorAll('[data-page]');
       const mobileMenuBtn = document.getElementById('mobile-menu-btn');
       const mobileMenu = document.getElementById('mobile-menu');
-
-      // --- Modal Elements ---
       const modal = document.getElementById('warning-modal');
       const modalCloseBtn = document.getElementById('modal-close-btn');
       const modalCancelBtn = document.getElementById('modal-cancel-btn');
@@ -645,7 +637,7 @@
       const timelineContainer = document.getElementById('timeline-container');
 
       // --- Initial Data Renders ---
-      fetchAppUpdates();
+      fetchAppUpdates(); // This will fetch data AND call update/render functions on success
 
       // --- Mobile Menu Toggle ---
       mobileMenuBtn.addEventListener('click', () => {
@@ -716,7 +708,6 @@
           e.preventDefault();
           const pageId = link.getAttribute('data-navlink');
           window.location.hash = pageId;
-          // Note: showPage() is now called by the hashchange listener
         });
       });
 
@@ -730,26 +721,29 @@
       });
 
       // --- Initial Page Load ---
-      // Check hash in URL to load the correct page
       let initialPage = window.location.hash.substring(1);
       if (!initialPage || !document.getElementById(initialPage)) {
         initialPage = 'home';
       }
       showPage(initialPage);
 
-      // Set initial active link
       if (!window.location.hash) {
         window.location.hash = '#home';
       }
 
       // Listen for clicks on old download buttons (using event delegation)
       timelineContainer.addEventListener('click', function (e) {
-        if (e.target && e.target.classList.contains('download-old-version-btn')) {
-          const url = e.target.getAttribute('data-download-url');
-          const version = e.target.getAttribute('data-version');
+        // Use .closest() to catch clicks on icon or text inside the button
+        const clickedButton = e.target.closest('.download-old-version-btn');
+
+        if (clickedButton) {
+          const url = clickedButton.getAttribute('data-download-url');
+          const version = clickedButton.getAttribute('data-version');
+          const arch = clickedButton.getAttribute('data-arch'); // Get architecture
 
           // Populate modal
-          modalText.innerHTML = `You are about to download an older version (<strong>${version}</strong>). We recommend using the latest version for the best features and security.`;
+          // --- MODIFIED: Include arch in modal text ---
+          modalText.innerHTML = `You are about to download an older version (<strong>${version} - ${arch}</strong>). We recommend using the latest version for the best features and security.`;
           modalConfirmBtn.href = url;
 
           // Show modal
