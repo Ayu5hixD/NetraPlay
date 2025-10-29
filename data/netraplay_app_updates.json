@@ -1,0 +1,60 @@
+[
+  {
+    "version": "1.0.1 (Latest)",
+    "date": "October 29, 2025",
+    "icon": "fa-rocket",
+    "color": "bg-primary-500",
+    "ring": "ring-primary-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.1-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.1-armeabi-v7a-release.apk",
+        "x86_64": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.1-x86_64-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.1-universal-release.apk"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "IMPROVEMENT",
+        "text": "Added more movies and web-series providers."
+      },
+      {
+        "type": "NEW",
+        "text": "Added support for downloading movies and series."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "New UI for Stream Player with complete info."
+      }
+    ]
+  },
+  {
+    "version": "1.0.0 : Initial Release",
+    "date": "October 24, 2025",
+    "icon": "fa-star",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.0-armeabi-v7a-release.apk",
+        "x86_64": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.0-x86_64-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.0-universal-release.apk"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "MAJOR",
+        "text": "Complete UI Overhaul! A brand new, faster, and more intuitive design."
+      },
+      {
+        "type": "NEW",
+        "text": "Added support for 4K streaming on compatible devices."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Reduced app load time by 30% on all devices."
+      }
+    ]
+  }
+]
