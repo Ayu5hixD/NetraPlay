@@ -19,7 +19,7 @@
         "text": "UI/UX overhaul to improve link handling."
       },
       {
-        "type": "IMPROVEMENT",
+        "type": "FIX",
         "text": "Enhanced provider link scraping."
       }
     ]
