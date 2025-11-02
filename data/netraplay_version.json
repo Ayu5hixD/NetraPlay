@@ -1,9 +1,9 @@
 {
-  "latestVersion": "1.0.1",
-  "latestBuildNumber": 3,
+  "latestVersion": "1.0.2",
+  "latestBuildNumber": 4,
   "forceUpdate": true,
-  "releaseNotes": "- Added more movies and web-series providers.\n- Added support for downloading movies and series.\n- New UI for Stream Player with complete info.",
-  "updateUrl": "https://netraplay.vercel.app/update",
+  "releaseNotes": "- Removed 'NetraPlay' fixed header from all screens.\n- Some minor fixes for TV UI/UX.",
+  "updateUrl": "https://netraplay.vercel.app/#updates",
   "lockApp": false,
   "lockPassword": "123456",
   "lockMessage": "The app is temporarily locked for maintenance. Please check back later."
