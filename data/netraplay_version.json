@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.0.3",
-  "latestBuildNumber": 5,
+  "latestVersion": "1.0.4",
+  "latestBuildNumber": 6,
   "forceUpdate": true,
-  "releaseNotes": "- UI/UX overhaul to improve link handling.\n- Enhanced provider link scraping.",
+  "releaseNotes": "- Added 'Rotate' button to player controls.\n- Select highest video quality by default.\n- Fixed back button and gestures working when locked.\n- Added 'Unlock' text to lock icon.",
   "updateUrl": "https://netraplay.vercel.app/#updates",
   "lockApp": false,
   "lockPassword": "123456",
