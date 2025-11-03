@@ -1,10 +1,43 @@
 [
   {
-    "version": "1.0.3 (Latest)",
-    "date": "November 03, 2025",
+    "version": "1.0.4 (Latest)",
+    "date": "November 4, 2025",
     "icon": "fa-rocket",
     "color": "bg-primary-500",
     "ring": "ring-primary-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.4-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.4-armeabi-v7a-release.apk",
+        "x86_64": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.4-x86_64-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.4-universal-release.apk"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Added a 'Rotate' button to the player controls to easily switch between landscape and portrait."
+      },
+      {
+        "type": "NEW",
+        "text": "Player now automatically selects the highest video quality by default when starting a video."
+      },
+      {
+        "type": "FIX",
+        "text": "Fixed a bug where the system back button and screen gestures (swipe, double-tap) still worked when the player was locked."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "The 'Unlock' button now displays text below the icon for better user clarity."
+      }
+    ]
+  },
+  {
+    "version": "1.0.3",
+    "date": "November 03, 2025",
+    "icon": "fa-link",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
     "downloadUrl": [
       {
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.3-arm64-v8a-release.apk",
