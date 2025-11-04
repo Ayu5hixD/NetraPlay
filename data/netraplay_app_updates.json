@@ -1,10 +1,71 @@
 [
   {
-    "version": "1.0.4 (Latest)",
-    "date": "November 4, 2025",
+    "version": "1.1.0 (Latest)",
+    "date": "November 5, 2025",
     "icon": "fa-rocket",
     "color": "bg-primary-500",
     "ring": "ring-primary-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.0-armeabi-v7a-release.apk",
+        "x86_64": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.0-x86_64-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.0-universal-release.apk"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "MAJOR",
+        "text": "Added video resume — progress now saves for all movies, episodes, and local files."
+      },
+      {
+        "type": "NEW",
+        "text": "Added gesture: hold right side to fast-forward at 2× speed."
+      },
+      {
+        "type": "NEW",
+        "text": "Episode downloads now use unique filenames."
+      },
+      {
+        "type": "NEW",
+        "text": "Added 'Downloads' tab to the Android TV navigation rail."
+      },
+      {
+        "type": "FIX",
+        "text": "Fixed episode playback positions overwriting each other."
+      },
+      {
+        "type": "FIX",
+        "text": "Seekbar now shows correctly for local and downloaded videos."
+      },
+      {
+        "type": "FIX",
+        "text": "Downloads now keep correct file extensions (e.g., .mkv)."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Gestures now work even when player controls are visible."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Volume, brightness, and speed indicators now show on screen sides."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Player now shows full movie or episode titles instead of server names."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Download list now shows both movie and episode/quality names."
+      }
+    ]
+  },
+  {
+    "version": "1.0.4",
+    "date": "November 4, 2025",
+    "icon": "fa-media",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
     "downloadUrl": [
       {
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.4-arm64-v8a-release.apk",
