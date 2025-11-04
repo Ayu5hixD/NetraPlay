@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.0.4",
-  "latestBuildNumber": 6,
+  "latestVersion": "1.1.0",
+  "latestBuildNumber": 7,
   "forceUpdate": true,
-  "releaseNotes": "- Added 'Rotate' button to player controls.\n- Select highest video quality by default.\n- Fixed back button and gestures working when locked.\n- Added 'Unlock' text to lock icon.",
+  "releaseNotes": "- Added video resume for all videos.\n- Added hold-to-fast-forward (2×) gesture.\n- Episode downloads now use unique names.\n- Added 'Downloads' tab on Android TV.\n- Fixed episode progress overwriting.\n- Fixed seekbar for local/downloaded videos.\n\n- and many more..."
   "updateUrl": "https://netraplay.vercel.app/#updates",
   "lockApp": false,
   "lockPassword": "123456",
