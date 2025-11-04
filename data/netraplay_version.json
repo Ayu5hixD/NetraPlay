@@ -2,7 +2,7 @@
   "latestVersion": "1.1.0",
   "latestBuildNumber": 7,
   "forceUpdate": true,
-  "releaseNotes": "- Added video resume for all videos.\n- Added hold-to-fast-forward (2×) gesture.\n- Episode downloads now use unique names.\n- Added 'Downloads' tab on Android TV.\n- Fixed episode progress overwriting.\n- Fixed seekbar for local/downloaded videos.\n\n- and many more..."
+  "releaseNotes": "- Added video resume for all videos.\n- Added hold-to-fast-forward (2×) gesture.\n- Episode downloads now use unique names.\n- Added 'Downloads' tab on Android TV.\n- Fixed episode progress overwriting.\n- Fixed seekbar for local/downloaded videos.\n\n- and many more...",
   "updateUrl": "https://netraplay.vercel.app/#updates",
   "lockApp": false,
   "lockPassword": "123456",
