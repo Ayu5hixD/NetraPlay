@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.1.0",
-  "latestBuildNumber": 7,
+  "latestVersion": "1.1.1",
+  "latestBuildNumber": 8,
   "forceUpdate": true,
-  "releaseNotes": "- Added video resume for all videos.\n- Added hold-to-fast-forward (2×) gesture.\n- Episode downloads now use unique names.\n- Added 'Downloads' tab on Android TV.\n- Fixed episode progress overwriting.\n- Fixed seekbar for local/downloaded videos.\n\n- and many more...",
+  "releaseNotes": "- Added dynamic batching for episodes in mobile & TV UIs.\n- Added full support for XDMovies and HiAnime sources.\n- Fixed OkHttp header handling in ExoPlayer.\n- Improved Episode Section UI and UX.\n\n- and many more...",
   "updateUrl": "https://netraplay.vercel.app/#updates",
   "lockApp": false,
   "lockPassword": "123456",
