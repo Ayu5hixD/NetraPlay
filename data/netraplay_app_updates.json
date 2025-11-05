@@ -1,10 +1,43 @@
 [
   {
-    "version": "1.1.0 (Latest)",
-    "date": "November 5, 2025",
+    "version": "1.1.1 (Latest)",
+    "date": "November 6, 2025",
     "icon": "fa-rocket",
     "color": "bg-primary-500",
     "ring": "ring-primary-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.1-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.1-armeabi-v7a-release.apk",
+        "x86_64": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.1-x86_64-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.1-universal-release.apk"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Introduced dynamic episode batching for smoother browsing on both mobile and TV platforms."
+      },
+      {
+        "type": "NEW",
+        "text": "Added complete integration for 'XDMovies' and 'HiAnime' content sources."
+      },
+      {
+        "type": "FIX",
+        "text": "Resolved OkHttp header handling issues in ExoPlayer for more reliable playback."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Refined the Episode Section interface for a cleaner, more intuitive user experience."
+      }
+    ]
+  },
+  {
+    "version": "1.1.0",
+    "date": "November 5, 2025",
+    "icon": "fa-volume-up",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
     "downloadUrl": [
       {
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.0-arm64-v8a-release.apk",
