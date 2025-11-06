@@ -1,10 +1,35 @@
 [
   {
-    "version": "1.1.1 (Latest)",
+    "version": "1.1.2 (Latest)",
     "date": "November 6, 2025",
     "icon": "fa-rocket",
     "color": "bg-primary-500",
     "ring": "ring-primary-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.2-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.2-armeabi-v7a-release.apk",
+        "x86_64": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.2-x86_64-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.2-universal-release.apk"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "FIX",
+        "text": "Resolved Google link header issues."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "TV Setting Section UI/UX overhaul."
+      }
+    ]
+  },
+  {
+    "version": "1.1.1",
+    "date": "November 6, 2025",
+    "icon": "fa-music",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
     "downloadUrl": [
       {
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.1-arm64-v8a-release.apk",
