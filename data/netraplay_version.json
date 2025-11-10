@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.1.2",
-  "latestBuildNumber": 9,
+  "latestVersion": "1.1.3",
+  "latestBuildNumber": 10,
   "forceUpdate": true,
-  "releaseNotes": "- Resolved Google link header issues.\n- TV Setting Section UI and UX overhaul.\n\n- and many more...",
+  "releaseNotes": "- Added custom headers, subtitle fetching for supported providers, and stream log display for the custom player.\n- Improved provider data extraction logic and ensured resolved links persist after returning from the player screen.\n\n- and many more...",
   "updateUrl": "https://netraplay.vercel.app/#updates",
   "lockApp": false,
   "lockPassword": "123456",
