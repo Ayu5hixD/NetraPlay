@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.1.3",
-  "latestBuildNumber": 10,
+  "latestVersion": "1.1.4",
+  "latestBuildNumber": 11,
   "forceUpdate": true,
-  "releaseNotes": "- Added custom headers, subtitle fetching for supported providers, and stream log display for the custom player.\n- Improved provider data extraction logic and ensured resolved links persist after returning from the player screen.\n\n- and many more...",
+  "releaseNotes": "- Added new providers - Netflix, Prime Video, Jio Hotstar.\n\n- Improved app loading time, fixed multiple subtitles issue, and various other improvements.",
   "updateUrl": "https://netraplay.vercel.app/#updates",
   "lockApp": false,
   "lockPassword": "123456",
