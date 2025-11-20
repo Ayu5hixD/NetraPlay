@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.1.4",
-  "latestBuildNumber": 11,
+  "latestVersion": "1.2.0",
+  "latestBuildNumber": 12,
   "forceUpdate": true,
-  "releaseNotes": "- Added new providers - Netflix, Prime Video, Jio Hotstar.\n\n- Improved app loading time, fixed multiple subtitles issue, and various other improvements.",
+  "releaseNotes": "- Implement Watch Party and redesign player UI\n\n- Team Netra",
   "updateUrl": "https://netraplay.vercel.app/#updates",
   "lockApp": false,
   "lockPassword": "123456",
