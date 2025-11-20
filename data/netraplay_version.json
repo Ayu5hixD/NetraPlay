@@ -1,6 +1,6 @@
 {
-  "latestVersion": "1.2.0",
-  "latestBuildNumber": 12,
+  "latestVersion": "1.2.1",
+  "latestBuildNumber": 13,
   "forceUpdate": true,
   "releaseNotes": "- Implement Watch Party and redesign player UI\n\n- Team Netra",
   "updateUrl": "https://netraplay.vercel.app/#updates",
