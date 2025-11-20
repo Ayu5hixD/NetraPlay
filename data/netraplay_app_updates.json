@@ -27,9 +27,9 @@
   {
     "version": "1.1.4",
     "date": "November 12, 2025",
-    "icon": "fa-rocket",
-    "color": "bg-primary-500",
-    "ring": "ring-primary-500/10",
+    "icon": "fa-virus",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
     "downloadUrl": [
       {
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.4-arm64-v8a-release.apk",
