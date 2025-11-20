@@ -2,7 +2,7 @@
   "latestVersion": "1.2.1",
   "latestBuildNumber": 13,
   "forceUpdate": true,
-  "releaseNotes": "- Implement Watch Party and redesign player UI\n\n- Team Netra",
+  "releaseNotes": "- Implement Watch Party and redesign player UI\n- Fixed Android button Navigation issue\n\n- Team Netra",
   "updateUrl": "https://netraplay.vercel.app/#updates",
   "lockApp": false,
   "lockPassword": "123456",
