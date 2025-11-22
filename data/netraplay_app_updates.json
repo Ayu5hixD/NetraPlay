@@ -1,10 +1,43 @@
 [
    {
-    "version": "1.2.1 (Latest)",
-    "date": "November 21, 2025",
+    "version": "1.2.2 (Latest)",
+    "date": "November 22, 2025",
     "icon": "fa-rocket",
     "color": "bg-primary-500",
     "ring": "ring-primary-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.2-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.2-armeabi-v7a-release.apk",
+        "x86_64": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.2-x86_64-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.2-universal-release.apk"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "FIX",
+        "text": "Fix content loading state and UI improvements."
+      },
+      {
+        "type": "FIX",
+        "text": "Fixed ContentProvider to show shimmer loading by clearing old data immediately on fetch."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Optimized image caching with memCacheWidth to improve performance."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Updated TV LinkResolverDialog UI to match mobile (added Watch Party, gradients, quality selection)."
+      },
+    ]
+  },
+   {
+    "version": "1.2.1",
+    "date": "November 21, 2025",
+    "icon": "fa-phone",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
     "downloadUrl": [
       {
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.1-arm64-v8a-release.apk",
@@ -27,7 +60,7 @@
   {
     "version": "1.2.0",
     "date": "November 20, 2025",
-    "icon": "fa-rocket",
+    "icon": "fa-heart",
     "color": "bg-gray-600",
     "ring": "ring-gray-500/10",
     "downloadUrl": [
