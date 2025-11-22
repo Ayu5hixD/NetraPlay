@@ -1,8 +1,8 @@
 {
-  "latestVersion": "1.2.1",
-  "latestBuildNumber": 13,
+  "latestVersion": "1.2.2",
+  "latestBuildNumber": 14,
   "forceUpdate": true,
-  "releaseNotes": "- Implement Watch Party and redesign player UI\n- Fixed Android button Navigation issue\n\n- Team Netra",
+  "releaseNotes": "- Fix content loading state and UI improvements\n\n- Migrated deprecated WillPopScope to PopScope in navigation scaffolds.\n\n- Optimized image caching with memCacheWidth to improve performance.\n\n-and many more... \n\nTeam Netra",
   "updateUrl": "https://netraplay.vercel.app/#updates",
   "lockApp": false,
   "lockPassword": "123456",
