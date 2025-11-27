@@ -1,10 +1,39 @@
 [
    {
-    "version": "1.2.2 (Latest)",
-    "date": "November 22, 2025",
+    "version": "1.2.3 (Latest)",
+    "date": "November 27, 2025",
     "icon": "fa-rocket",
     "color": "bg-primary-500",
     "ring": "ring-primary-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.3-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.3-armeabi-v7a-release.apk",
+        "x86_64": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.3-x86_64-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.3-universal-release.apk"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "New Movie Notification feature"
+      },
+      {
+        "type": "FIX",
+        "text": "Correct background fetch paths & group updates, Optimize Watch Party sync"
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Refactor XDMovies scraper to align with new site structure"
+      }
+    ]
+  },
+   {
+    "version": "1.2.2",
+    "date": "November 22, 2025",
+    "icon": "fa-bullhorn",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
     "downloadUrl": [
       {
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.2-arm64-v8a-release.apk",
