@@ -1,0 +1,20 @@
+[
+  {
+    "title": "JioTV+ - Live TV",
+    "description": "Watch Live TV channels, Movies, and Shows on JioTV+. Enjoy a wide range of entertainment content.",
+    "playlist_link": "https://netraplay.short.gy/jiotv.m3u",
+    "category": "Entertainment"
+  },
+  {
+    "title": "FanCode - Live Sports",
+    "description": "Live Sports, Scores, News, and Highlights. Follow your favorite teams and players with Fancode.",
+    "playlist_link": "https://netraplay.short.gy/fancode.m3u",
+    "category": "Sports"
+  },
+  {
+    "title": "SonyLIV - Live Sports",
+    "description": "Watch Live Sports on SonyLIV. Stream your favorite content anytime, anywhere.",
+    "playlist_link": "https://netraplay.short.gy/sonyliv.m3u",
+    "category": "Sports"
+  }
+]
