@@ -16,5 +16,11 @@
     "description": "Watch Live Sports on SonyLIV. Stream your favorite content anytime, anywhere.",
     "playlist_link": "https://netraplay.short.gy/sonyliv.json",
     "category": "Sports"
+  },
+  {
+    "title": "Zee5 - Live TV",
+    "description": "Stream Live TV channels, Movies, and Shows on Zee5. Enjoy a variety of entertainment content.",
+    "playlist_link": "https://netraplay.short.gy/zee5.m3u",
+    "category": "Entertainment"
   }
 ]
