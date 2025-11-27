@@ -2,7 +2,7 @@
   {
     "title": "JioTV+ - Live TV",
     "description": "Watch Live TV channels, Movies, and Shows on JioTV+. Enjoy a wide range of entertainment content.",
-    "playlist_link": "https://netraplay.short.gy/jiotv.m3u",
+    "playlist_link": "https://netraplay.short.gy/jiotv.json",
     "category": "Entertainment"
   },
   {
