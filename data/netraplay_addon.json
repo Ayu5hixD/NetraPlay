@@ -1,7 +1,7 @@
 [
   {
-    "title": "JioTV+ - Live TV",
-    "description": "Watch Live TV channels, Movies, and Shows on JioTV+. Enjoy a wide range of entertainment content.",
+    "title": "JioTV - Live TV",
+    "description": "Watch Live TV channels, Movies, and Shows on JioTV. Enjoy a wide range of entertainment content.",
     "playlist_link": "https://netraplay.short.gy/jiotv.json",
     "category": "Entertainment"
   },
@@ -21,6 +21,12 @@
     "title": "Zee5 - Live TV",
     "description": "Stream Live TV channels, Movies, and Shows on Zee5. Enjoy a variety of entertainment content.",
     "playlist_link": "https://netraplay.short.gy/zee5.m3u",
+    "category": "Entertainment"
+  },
+  {
+    "title": "SunNXT - Live TV",
+    "description": "Watch Live TV channels, Movies, and Shows on Sun NXT. Enjoy a wide range of entertainment content.",
+    "playlist_link": "https://netraplay.short.gy/sunnxt.json",
     "category": "Entertainment"
   }
 ]
