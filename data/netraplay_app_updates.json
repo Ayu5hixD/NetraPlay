@@ -13,30 +13,30 @@
       }
     ],
     "changelog": [
-      {
-        "type": "MAJOR",
-        "text": "Refactor update dialog for architecture-specific APKs and in-app installation."
-      },
-      {
-        "type": "NEW",
-        "text": "Add floating action button to switch providers on Home Screen."
-      },
-      {
-        "type": "NEW",
-        "text": "Implement pagination and instant history updates."
-      },
-      {
-        "type": "FIX",
-        "text": "Fix TV UI overflows, optimize remote navigation, and resolve mobile RangeError."
-      },
-      {
-        "type": "FIX",
-        "text": "Improved focus management and visual feedback across all TV screens."
-      },
-      {
-        "type": "FIX",
-        "text": "Fix Xiaomi/MediaTek playback crash by switching to TextureView."
-      }
+        {
+          "type": "MAJOR",
+          "text": "Refactored update dialog with architecture-specific APK support and seamless in-app install."
+        },
+        {
+          "type": "NEW",
+          "text": "Add floating action button to switch providers on Home Screen."
+        },
+        {
+          "type": "NEW",
+          "text": "Implement pagination and instant history updates."
+        },
+        {
+          "type": "FIX",
+          "text": "Resolved TV UI overflows, improved remote navigation, and fixed mobile RangeError."
+        },
+        {
+          "type": "FIX",
+          "text": "Improved focus management and visual feedback across all TV screens."
+        },
+        {
+          "type": "FIX",
+          "text": "Fix Xiaomi/MediaTek playback crash by switching to TextureView."
+        }
     ]
   },
    {
