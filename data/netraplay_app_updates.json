@@ -19,11 +19,19 @@
       },
       {
         "type": "NEW",
-        "text": "Add floating action button to switch providers on Home Screen"
+        "text": "Add floating action button to switch providers on Home Screen."
       },
       {
         "type": "NEW",
         "text": "Implement pagination and instant history updates."
+      },
+      {
+        "type": "FIX",
+        "text": "Fix TV UI overflows, optimize remote navigation, and resolve mobile RangeError."
+      },
+      {
+        "type": "FIX",
+        "text": "Improved focus management and visual feedback across all TV screens."
       },
       {
         "type": "FIX",
@@ -358,7 +366,7 @@
   {
     "version": "1.0.4",
     "date": "November 4, 2025",
-    "icon": "fa-media",
+    "icon": "fa-globe",
     "color": "bg-gray-600",
     "ring": "ring-gray-500/10",
     "downloadUrl": [
