@@ -1,40 +1,36 @@
 {
-  "latestVersion": "1.4.0",
-  "latestBuildNumber": 18,
+  "latestVersion": "1.4.1",
+  "latestBuildNumber": 19,
   "forceUpdate": true,
-  "releaseNotes": "- Refactored update dialog with architecture-specific APK support and seamless in-app install.\n\n- Resolved TV UI overflows, improved remote navigation, and fixed mobile RangeError and many more...\n\nTeam Netra",
+  "releaseNotes": "- Enhancements for TV remote support, Custom Loading/Shimmer, and Player Fixes, and many more...\n\nTeam Netra",
   "changelog": [
     {
-      "type": "MAJOR",
-      "text": "Refactored update dialog with architecture-specific APK support and seamless in-app install."
-    },
-    {
       "type": "NEW",
-      "text": "Add floating action button to switch providers on Home Screen."
-    },
-    {
-      "type": "NEW",
-      "text": "Implement pagination and instant history updates."
+      "text": "Added custom Lottie loading animations and shimmer effects for better UI feedback."
     },
     {
       "type": "FIX",
-      "text": "Resolved TV UI overflows, improved remote navigation, and fixed mobile RangeError."
+      "text": "Resolved player crash on Xiaomi/MTK devices by filtering buggy secure decoders."
     },
     {
       "type": "FIX",
-      "text": "Improved focus management and visual feedback across all TV screens."
+      "text": "Fixed TV remote navigation and crashes by updating focus handling and XML drawables."
     },
     {
       "type": "FIX",
-      "text": "Fix Xiaomi/MediaTek playback crash by switching to TextureView."
+      "text": "Enabled playback for M3U8 playlists without extensions and fixed extractor logic."
+    },
+    {
+      "type": "FIX",
+      "text": "Solved 'See All' blank screen issue on TV by forcing UI updates on data initialization."
     }
   ],
   "updateUrl": "https://netraplay.vercel.app/#updates",
   "downloadUrl": [
     {
-      "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.0-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.0-armeabi-v7a-release.apk",
-      "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.0-universal-release.apk"
+      "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.1-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.1-armeabi-v7a-release.apk",
+      "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.1-universal-release.apk"
     }
   ],
   "lockApp": false,
