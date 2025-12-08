@@ -1,10 +1,46 @@
 [
-    {
-    "version": "1.4.0 (Latest)",
-    "date": "December 5, 2025",
+     {
+    "version": "1.4.1 (Latest)",
+    "date": "December 8, 2025",
     "icon": "fa-rocket",
     "color": "bg-primary-500",
     "ring": "ring-primary-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.1-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.1-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.1-universal-release.apk"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Added custom Lottie loading animations and shimmer effects for better UI feedback."
+      },
+      {
+        "type": "FIX",
+        "text": "Resolved player crash on Xiaomi/MTK devices by filtering buggy secure decoders."
+      },
+      {
+        "type": "FIX",
+        "text": "Fixed TV remote navigation and crashes by updating focus handling and XML drawables."
+      },
+      {
+        "type": "FIX",
+        "text": "Enabled playback for M3U8 playlists without extensions and fixed Kartoons extractor logic."
+      },
+      {
+        "type": "FIX",
+        "text": "Solved 'See All' blank screen issue on TV by forcing UI updates on data initialization."
+      }
+    ]
+  },
+    {
+    "version": "1.4.0",
+    "date": "December 5, 2025",
+    "icon": "fa-bug",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
     "downloadUrl": [
       {
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.0-arm64-v8a-release.apk",
