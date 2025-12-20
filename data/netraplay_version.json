@@ -1,28 +1,32 @@
 {
-  "latestVersion": "1.4.1",
-  "latestBuildNumber": 2020,
+  "latestVersion": "1.5.0",
+  "latestBuildNumber": 2021,
   "forceUpdate": true,
   "releaseNotes": "- Enhancements for TV remote support, Custom Loading/Shimmer, and Player Fixes, and many more...\n\nTeam Netra",
   "changelog": [
     {
       "type": "NEW",
-      "text": "Added custom Lottie loading animations and shimmer effects for better UI feedback."
+      "text": "Redesigned the native player interface to deliver a cleaner, more intuitive, and user-friendly viewing experience."
+    },
+    {
+      "type": "NEW",
+      "text": "Added support for deep linking and integrated social sharing functionality."
+    },
+    {
+      "type": "NEW",
+      "text": "Introduced gesture-based playback speed controls with haptic feedback for enhanced interaction."
     },
     {
       "type": "FIX",
-      "text": "Resolved player crash on Xiaomi/MTK devices by filtering buggy secure decoders."
+      "text": "Stabilized Picture-in-Picture behavior on devices running Android 12 and later."
     },
     {
       "type": "FIX",
-      "text": "Fixed TV remote navigation and crashes by updating focus handling and XML drawables."
+      "text": "Enhanced the link resolving mechanism by enabling automatic background resolution and providing multiple stream options through the player’s “Source” control."
     },
     {
       "type": "FIX",
-      "text": "Enabled playback for M3U8 playlists without extensions and fixed extractor logic."
-    },
-    {
-      "type": "FIX",
-      "text": "Solved 'See All' blank screen issue on TV by forcing UI updates on data initialization."
+      "text": "Enforced correct MIME-type handling to prevent media extractor misselection during playback."
     }
   ],
   "updateUrl": "https://netraplay.vercel.app/#updates",
