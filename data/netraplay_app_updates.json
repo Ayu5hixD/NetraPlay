@@ -1,42 +1,74 @@
 [
-          {
-    "version": "1.5.0 (Latest)",
-    "date": "December 20, 2025",
+  {
+    "version": "1.5.1 (Latest)",
+    "date": "January 8, 2026",
     "icon": "fa-rocket",
     "color": "bg-primary-500",
     "ring": "ring-primary-500/10",
     "downloadUrl": [
       {
-        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.1-arm64-v8a-release.apk",
-        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.1-armeabi-v7a-release.apk",
-        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.1-universal-release.apk"
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.1-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.1-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.1-universal-release.apk"
       }
     ],
     "changelog": [
-        {
-           "type": "NEW",
-           "text": "Redesigned the native player interface to deliver a cleaner, more intuitive, and user-friendly viewing experience."
-         },
-         {
-           "type": "NEW",
-           "text": "Added support for deep linking and integrated social sharing functionality."
-         },
-         {
-           "type": "NEW",
-           "text": "Introduced gesture-based playback speed controls with haptic feedback for enhanced interaction."
-         },
-         {
-           "type": "FIX",
-           "text": "Stabilized Picture-in-Picture behavior on devices running Android 12 and later."
-         },
-         {
-           "type": "FIX",
-           "text": "Enhanced the link resolving mechanism by enabling automatic background resolution and providing multiple stream options through the player’s “Source” control."
-         },
-         {
-           "type": "FIX",
-           "text": "Enforced correct MIME-type handling to prevent media extractor misselection during playback."
-         }
+      {
+        "type": "NEW",
+        "text": "Introduced multiple new content providers to expand movie and series availability."
+      },
+      {
+        "type": "FIX",
+        "text": "Resolved playback issues occurring on specific device models to ensure stable media streaming."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Enhanced search functionality with advanced filtering options for faster and more precise content discovery."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Optimized scraping engine performance, significantly reducing content loading times."
+      }
+    ]
+  },
+  {
+    "version": "1.5.0",
+    "date": "December 20, 2025",
+    "icon": "fa-picture",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.0-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.0-universal-release.apk"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Redesigned the native player interface to deliver a cleaner, more intuitive, and user-friendly viewing experience."
+      },
+      {
+        "type": "NEW",
+        "text": "Added support for deep linking and integrated social sharing functionality."
+      },
+      {
+        "type": "NEW",
+        "text": "Introduced gesture-based playback speed controls with haptic feedback for enhanced interaction."
+      },
+      {
+        "type": "FIX",
+        "text": "Stabilized Picture-in-Picture behavior on devices running Android 12 and later."
+      },
+      {
+        "type": "FIX",
+        "text": "Enhanced the link resolving mechanism by enabling automatic background resolution and providing multiple stream options through the player’s “Source” control."
+      },
+      {
+        "type": "FIX",
+        "text": "Enforced correct MIME-type handling to prevent media extractor misselection during playback."
+      }
     ]
   },
   {
@@ -75,7 +107,7 @@
       }
     ]
   },
-    {
+  {
     "version": "1.4.0",
     "date": "December 5, 2025",
     "icon": "fa-bug",
@@ -89,33 +121,33 @@
       }
     ],
     "changelog": [
-        {
-          "type": "MAJOR",
-          "text": "Refactored update dialog with architecture-specific APK support and seamless in-app install."
-        },
-        {
-          "type": "NEW",
-          "text": "Add floating action button to switch providers on Home Screen."
-        },
-        {
-          "type": "NEW",
-          "text": "Implement pagination and instant history updates."
-        },
-        {
-          "type": "FIX",
-          "text": "Resolved TV UI overflows, improved remote navigation, and fixed mobile RangeError."
-        },
-        {
-          "type": "FIX",
-          "text": "Improved focus management and visual feedback across all TV screens."
-        },
-        {
-          "type": "FIX",
-          "text": "Fix Xiaomi/MediaTek playback crash by switching to TextureView."
-        }
+      {
+        "type": "MAJOR",
+        "text": "Refactored update dialog with architecture-specific APK support and seamless in-app install."
+      },
+      {
+        "type": "NEW",
+        "text": "Add floating action button to switch providers on Home Screen."
+      },
+      {
+        "type": "NEW",
+        "text": "Implement pagination and instant history updates."
+      },
+      {
+        "type": "FIX",
+        "text": "Resolved TV UI overflows, improved remote navigation, and fixed mobile RangeError."
+      },
+      {
+        "type": "FIX",
+        "text": "Improved focus management and visual feedback across all TV screens."
+      },
+      {
+        "type": "FIX",
+        "text": "Fix Xiaomi/MediaTek playback crash by switching to TextureView."
+      }
     ]
   },
-   {
+  {
     "version": "1.3.1",
     "date": "November 28, 2025",
     "icon": "fa-info",
@@ -139,7 +171,7 @@
       }
     ]
   },
-   {
+  {
     "version": "1.3.0",
     "date": "November 28, 2025",
     "icon": "fa-map-pin",
@@ -167,7 +199,7 @@
       }
     ]
   },
-   {
+  {
     "version": "1.2.3",
     "date": "November 27, 2025",
     "icon": "fa-globe",
@@ -195,7 +227,7 @@
       }
     ]
   },
-   {
+  {
     "version": "1.2.2",
     "date": "November 22, 2025",
     "icon": "fa-bullhorn",
@@ -227,7 +259,7 @@
       }
     ]
   },
-   {
+  {
     "version": "1.2.1",
     "date": "November 21, 2025",
     "icon": "fa-phone",
