@@ -22,7 +22,7 @@
   {
     "version": "1.5.1",
     "date": "January 8, 2026",
-    "icon": "fa-rocket",
+    "icon": "fa-ball",
     "color": "bg-gray-600",
     "ring": "ring-gray-500/10",
     "downloadUrl": [
@@ -54,7 +54,7 @@
   {
     "version": "1.5.0",
     "date": "December 20, 2025",
-    "icon": "fa-picture",
+    "icon": "fa-cat",
     "color": "bg-gray-600",
     "ring": "ring-gray-500/10",
     "downloadUrl": [
