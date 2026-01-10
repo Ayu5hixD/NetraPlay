@@ -5,20 +5,8 @@
   "releaseNotes": "- Introduced multiple new content providers to expand movie and series availability, and many more...\n\nTeam Netra",
   "changelog": [
     {
-      "type": "NEW",
-      "text": "Introduced multiple new content providers to expand movie and series availability."
-    },
-    {
       "type": "FIX",
-      "text": "Resolved playback issues occurring on specific device models to ensure stable media streaming."
-    },
-    {
-      "type": "IMPROVEMENT",
-      "text": "Enhanced search functionality with advanced filtering options for faster and more precise content discovery."
-    },
-    {
-      "type": "IMPROVEMENT",
-      "text": "Optimized scraping engine performance, significantly reducing content loading times."
+      "text": "Refactored TV update dialog with architecture-specific APK support and seamless in-app install."
     }
   ],
   "updateUrl": "https://netraplay.vercel.app/#updates",
