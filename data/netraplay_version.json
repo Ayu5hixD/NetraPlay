@@ -1,6 +1,6 @@
 {
-  "latestVersion": "1.5.1",
-  "latestBuildNumber": 2022,
+  "latestVersion": "1.5.2",
+  "latestBuildNumber": 2023,
   "forceUpdate": false,
   "releaseNotes": "- Introduced multiple new content providers to expand movie and series availability, and many more...\n\nTeam Netra",
   "changelog": [
@@ -24,9 +24,9 @@
   "updateUrl": "https://netraplay.vercel.app/#updates",
   "downloadUrl": [
     {
-      "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.1-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.1-armeabi-v7a-release.apk",
-      "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.1-universal-release.apk"
+      "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.2-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.2-armeabi-v7a-release.apk",
+      "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.2-universal-release.apk"
     }
   ],
   "lockApp": false,
