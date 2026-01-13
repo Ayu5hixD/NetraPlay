@@ -24,6 +24,12 @@
     "category": "Entertainment"
   },
   {
+    "title": "Live Sports - WorldWide",
+    "description": "Watch Live Sports channels, Matches, and Highlights. Stay updated with the latest sports action.",
+    "playlist_link": "https://netraplay.short.gy/livesports.json",
+    "category": "Sports"
+  },
+  {
     "title": "SunNXT - Live TV",
     "description": "Watch Live TV channels, Movies, and Shows on Sun NXT. Enjoy a wide range of entertainment content.",
     "playlist_link": "https://netraplay.short.gy/sunnxt.json",
