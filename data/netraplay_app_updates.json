@@ -1,10 +1,42 @@
 [
   {
-    "version": "1.5.2 (Latest)",
-    "date": "January 10, 2026",
+    "version": "1.5.3 (Latest)",
+    "date": "January 14, 2026",
     "icon": "fa-rocket",
     "color": "bg-primary-500",
     "ring": "ring-primary-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.3-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.3-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.3-universal-release.apk"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "TV UI/UX design has been completely overhauled for a more modern, smooth, and user-friendly viewing experience."
+      },
+      {
+        "type": "FIX",
+        "text": "Resolved Android TV remote D-Pad navigation issues to ensure accurate and responsive focus movement."
+      },
+      {
+        "type": "FIX",
+        "text": "Fixed pinch-to-zoom gesture handling and added a dedicated setting to enable or disable zoom functionality."
+      },
+      {
+        "type": "FIX",
+        "text": "Improved and corrected provider extraction logic for better compatibility and faster content loading."
+      }
+    ]
+  },
+  {
+    "version": "1.5.2",
+    "date": "January 10, 2026",
+    "icon": "fa-trash",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
     "downloadUrl": [
       {
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.2-arm64-v8a-release.apk",
