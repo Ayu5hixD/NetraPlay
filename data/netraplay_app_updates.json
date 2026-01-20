@@ -1,10 +1,38 @@
 [
   {
-    "version": "1.5.3 (Latest)",
-    "date": "January 14, 2026",
+    "version": "1.5.4 (Latest)",
+    "date": "January 20, 2026",
     "icon": "fa-rocket",
     "color": "bg-primary-500",
     "ring": "ring-primary-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.4-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.4-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.4-universal-release.apk"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Introduced a robust Cloudflare Solver with an internal request queue to safely handle multiple concurrent challenge resolutions without blocking the application."
+      },
+      {
+        "type": "FIX",
+        "text": "Resolved source selection issues in the video player, ensuring the correct stream is consistently chosen during playback initialization."
+      },
+      {
+        "type": "FIX",
+        "text": "Fixed multiple player-related stability and playback issues, including stream switching, buffering inconsistencies, and unexpected player resets."
+      }
+    ]
+  },
+  {
+    "version": "1.5.3",
+    "date": "January 14, 2026",
+    "icon": "fa-tools",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
     "downloadUrl": [
       {
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.3-arm64-v8a-release.apk",
