@@ -1,24 +1,36 @@
 {
-  "latestVersion": "1.5.4",
-  "latestBuildNumber": 2027,
+  "latestVersion": "1.6.0",
+  "latestBuildNumber": 2028,
   "forceUpdate": true,
   "releaseNotes": "- Introduced multiple new content providers to expand movie and series availability, and many more...\n\nTeam Netra",
   "changelog": [
     {
       "type": "NEW",
-      "text": "Introduced a robust Cloudflare Solver with request queue support for handling concurrent challenges."
+      "text": "Enhanced Local Files with file manager navigation for Mobile & Added Full TV Support."
+    },
+     {
+      "type": "NEW",
+      "text": "Add Zip Pack support and enhance movie detail UI."
     },
     {
       "type": "FIX",
-      "text": "Fixed video player source selection and resolved multiple playback and stability issues."
+      "text": "Optimize provider switching and fix race conditions in content loading."
+    },
+    {
+      "type": "FIX",
+      "text": "Refactor providers, optimize scrapers, and add search filtering."
+    },
+    {
+      "type": "FIX",
+      "text": "Optimize search performance and enhance history management."
     }
   ],
   "updateUrl": "https://netraplay.vercel.app/#updates",
   "downloadUrl": [
     {
-      "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.4-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.4-armeabi-v7a-release.apk",
-      "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.4-universal-release.apk"
+      "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.0-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.0-armeabi-v7a-release.apk",
+      "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.0-universal-release.apk"
     }
   ],
   "lockApp": false,
