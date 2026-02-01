@@ -1,7 +1,7 @@
 {
-  "latestVersion": "1.7.4",
+  "latestVersion": "1.5.4",
   "latestBuildNumber": 2027,
-  "forceUpdate": false,
+  "forceUpdate": true,
   "releaseNotes": "- Introduced multiple new content providers to expand movie and series availability, and many more...\n\nTeam Netra",
   "changelog": [
     {
