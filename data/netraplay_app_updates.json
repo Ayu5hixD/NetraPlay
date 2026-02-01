@@ -1,10 +1,46 @@
 [
   {
-    "version": "1.5.4 (Latest)",
-    "date": "January 20, 2026",
+    "version": "1.6.0 (Latest)",
+    "date": "February 2, 2026",
     "icon": "fa-rocket",
     "color": "bg-primary-500",
     "ring": "ring-primary-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.0-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.0-universal-release.apk"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Enhanced Local Files with file manager navigation for Mobile & Added Full TV Support."
+      },
+       {
+        "type": "NEW",
+        "text": "Add Zip Pack support and enhance movie detail UI."
+      },
+      {
+        "type": "FIX",
+        "text": "Optimize provider switching and fix race conditions in content loading."
+      },
+      {
+        "type": "FIX",
+        "text": "Refactor providers, optimize scrapers, and add search filtering."
+      },
+      {
+        "type": "FIX",
+        "text": "Optimize search performance and enhance history management."
+      }
+    ]
+  },
+  {
+    "version": "1.5.4",
+    "date": "January 20, 2026",
+    "icon": "fa-ring",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
     "downloadUrl": [
       {
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.4-arm64-v8a-release.apk",
