@@ -15,7 +15,7 @@
     "changelog": [
       {
         "type": "NEW",
-        "text": "Added a real-time Chat UI overlay to the video player."
+        "text": "Integrated a real-time chat UI overlay into the video player to enhance the Watch Party experience."
       },
       {
         "type": "FIX",
