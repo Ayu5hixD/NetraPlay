@@ -15,6 +15,10 @@
     "changelog": [
       {
         "type": "FIX",
+        "text": "Fixes auto-fill stream data for the custom player."
+      },
+      {
+        "type": "FIX",
         "text": "Resolved link resolution issues."
       }
     ]
