@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.6.3",
-  "latestBuildNumber": 2031,
+  "latestVersion": "1.6.2",
+  "latestBuildNumber": 2030,
   "forceUpdate": true,
   "releaseNotes": "- Introduced multiple new content providers to expand movie and series availability, and many more...\n\nTeam Netra",
   "changelog": [
     {
       "type": "FIX",
-      "text": "Resolved link resolution issues in the Extractor service."
+      "text": "Resolved link resolution issues."
     }
   ],
   "updateUrl": "https://netraplay.vercel.app/#updates",
