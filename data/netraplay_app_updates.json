@@ -1,10 +1,46 @@
 [
   {
-    "version": "1.6.3 (Latest)",
-    "date": "February 16, 2026",
+    "version": "1.7.0 (Latest)",
+    "date": "March 8, 2026",
     "icon": "fa-rocket",
     "color": "bg-primary-500",
     "ring": "ring-primary-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.0-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.0-universal-release.apk"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Faster downloads with parallel downloading, including ETA and live speed."
+      },
+      {
+        "type": "NEW",
+        "text": "Chat messages now show the exact sent time (e.g., 09:45 AM)."
+      },
+      {
+        "type": "NEW",
+        "text": "Added a Changelogs section in Settings to view the latest app updates."
+      },
+      {
+        "type": "FIX",
+        "text": "Improved Android TV remote navigation for better compatibility."
+      },
+      {
+        "type": "FIX",
+        "text": "Added Cloudflare solver support for more sites to improve access."
+      }
+    ]
+  },
+  {
+    "version": "1.6.3",
+    "date": "February 16, 2026",
+    "icon": "fa-clock",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
     "downloadUrl": [
       {
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.3-arm64-v8a-release.apk",
