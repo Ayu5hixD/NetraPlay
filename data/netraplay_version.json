@@ -1,20 +1,16 @@
 {
-  "latestVersion": "1.7.0",
-  "latestBuildNumber": 2035,
+  "latestVersion": "1.7.1",
+  "latestBuildNumber": 2036,
   "forceUpdate": true,
   "releaseNotes": "- Introduced multiple new content providers to expand movie and series availability, and many more...\n\nTeam Netra",
   "changelog": [
     {
       "type": "NEW",
-      "text": "Faster downloads with parallel downloading, including ETA and live speed."
+      "text": "UI/UX improvements for a smoother user experience."
     },
     {
       "type": "NEW",
-      "text": "Chat messages now show the exact sent time (e.g., 09:45 AM)."
-    },
-    {
-      "type": "NEW",
-      "text": "Added a Changelogs section in Settings to view the latest app updates."
+      "text": "Added Roboto font support in the TV UI for better readability."
     },
     {
       "type": "FIX",
@@ -22,15 +18,15 @@
     },
     {
       "type": "FIX",
-      "text": "Added Cloudflare solver support for more sites to improve access."
+      "text": "Resolved TV navigation issues in the native player."
     }
   ],
   "updateUrl": "https://netraplay.vercel.app/#updates",
   "downloadUrl": [
     {
-      "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.0-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.0-armeabi-v7a-release.apk",
-      "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.0-universal-release.apk"
+      "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.1-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.1-armeabi-v7a-release.apk",
+      "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.1-universal-release.apk"
     }
   ],
   "lockApp": false,
