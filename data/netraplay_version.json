@@ -30,6 +30,7 @@
     }
   ],
   "lockApp": false,
-  "lockPassword": "123456",
+  "lockPassword": "987654",
+  "vph": "f265798b43897fa18ff6ee7ff1a500a2499285782b53d87d839c21845fa8063d",
   "lockMessage": "The app is temporarily locked for maintenance. Please check back later."
 }
