@@ -678,6 +678,8 @@
 
   <script>
     let appUpdatesData = [];
+    let visibleCount = 10;
+    const PAGE_SIZE = 10;
 
     const archDisplayNames = {
       universal: "Universal (All Devices)",
@@ -758,7 +760,10 @@
 
       let allUpdatesHtml = "";
 
-      appUpdatesData.forEach((update, index) => {
+      const start = visibleCount - PAGE_SIZE;
+      const visibleData = appUpdatesData.slice(start, visibleCount);
+
+      visibleData.forEach((update, index) => {
         const isLatest = index === 0;
         const changelogHtml = `<ul class="space-y-3 mt-4">${update.changelog.map(getChangelogItemHtml).join("")}</ul>`;
         let downloadButtonHtml = '<div class="flex flex-wrap gap-3 mt-6 pt-6 border-t border-white/5">';
@@ -820,7 +825,33 @@
       });
 
       if (loadingEl) loadingEl.style.display = "none";
-      container.innerHTML = allUpdatesHtml;
+
+      // Add Show More button
+      if (visibleCount < appUpdatesData.length) {
+        allUpdatesHtml += `
+    <div class="text-center mt-12">
+      <button id="load-more-btn"
+        class="px-6 py-3 rounded-xl font-semibold text-white 
+        bg-gradient-to-r from-primary-500 to-accent-500 
+        hover:opacity-90 transition-all shadow-lg">
+        Show More
+      </button>
+    </div>
+  `;
+      }
+
+      if (visibleCount === PAGE_SIZE) {
+        container.innerHTML = allUpdatesHtml;
+      } else {
+        const temp = document.createElement("div");
+        temp.innerHTML = allUpdatesHtml;
+
+        const newItems = temp.querySelectorAll(".relative.flex");
+        newItems.forEach(el => container.appendChild(el));
+
+        const btn = document.getElementById("load-more-btn");
+        if (btn) btn.remove();
+      }
 
       container.querySelectorAll(".animate-hidden").forEach((el) => {
         setTimeout(() => el.classList.remove("animate-hidden"), 50);
@@ -899,6 +930,14 @@
       showPage(window.location.hash.substring(1) || "home");
 
       timelineContainer.addEventListener("click", (e) => {
+        // LOAD MORE FIRST
+        if (e.target.closest("#load-more-btn")) {
+          visibleCount += PAGE_SIZE;
+          renderAppUpdates();
+          return;
+        }
+
+        // THEN CHECK FOR DOWNLOAD BUTTONS
         const btn = e.target.closest(".download-old-version-btn");
         if (btn) {
           const url = btn.getAttribute("data-download-url");
