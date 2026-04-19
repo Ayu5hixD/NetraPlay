@@ -676,6 +676,26 @@
     </div>
   </div>
 
+  <!-- ARCH SELECT MODAL -->
+  <div id="arch-modal"
+    class="hidden fixed inset-0 z-[1200] flex items-center justify-center bg-black/70 backdrop-blur-md">
+    <div class="glass-card w-full max-w-lg p-8 m-4">
+
+      <div class="flex justify-between items-center mb-6">
+        <h2 class="text-xl font-bold text-white">Choose Your Device</h2>
+        <button id="arch-close" class="text-gray-400 hover:text-white">
+          <i class="fa-solid fa-xmark text-xl"></i>
+        </button>
+      </div>
+
+      <p class="text-gray-400 mb-6">
+        Select the correct build for best performance and compatibility.
+      </p>
+
+      <div id="arch-options" class="grid gap-3"></div>
+    </div>
+  </div>
+
   <script>
     let appUpdatesData = [];
     let visibleCount = 10;
@@ -722,7 +742,8 @@
       if (!latestUrl) return;
 
       document.querySelectorAll(".download-app-link").forEach((button) => {
-        button.href = latestUrl;
+        button.href = "#";
+        button.setAttribute("data-latest", "true");
       });
     }
 
@@ -869,6 +890,53 @@
       const timelineContainer = document.getElementById("timeline-container");
       const header = document.querySelector("header");
 
+
+      const archModal = document.getElementById("arch-modal");
+      const archOptions = document.getElementById("arch-options");
+      const archClose = document.getElementById("arch-close");
+
+      function openArchModal(links) {
+        archOptions.innerHTML = "";
+
+        Object.keys(links).forEach((arch) => {
+          const url = links[arch];
+          if (!url) return;
+
+          const display = getArchDisplayName(arch);
+          const btn = document.createElement("a");
+
+          btn.href = url;
+          btn.className =
+            "flex items-center justify-between p-4 rounded-xl border transition font-semibold bg-white/5 border-white/10 text-gray-300 hover:bg-white/10"
+            ;
+
+          btn.innerHTML = `
+      <div class="flex flex-col">
+        <span>${display}</span>
+      </div>
+      <i class="fa-solid fa-download"></i>
+    `;
+
+          btn.addEventListener("click", () => {
+            archModal.classList.add("hidden");
+          });
+
+          archOptions.appendChild(btn);
+        });
+
+        archModal.classList.remove("hidden");
+      }
+
+      archClose.addEventListener("click", () => archModal.classList.add("hidden"));
+
+      archModal.addEventListener("click", (e) => {
+        if (e.target === archModal) archModal.classList.add("hidden");
+      });
+
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") archModal.classList.add("hidden");
+      });
+
       window.addEventListener('scroll', () => {
         if (window.scrollY > 20) {
           header.classList.add('py-0');
@@ -886,6 +954,21 @@
         mobileMenuBtn.innerHTML = mobileMenu.classList.contains("hidden")
           ? '<i class="fa-solid fa-bars text-xl"></i>'
           : '<i class="fa-solid fa-xmark text-xl"></i>';
+      });
+
+      document.querySelectorAll(".download-app-link").forEach(btn => {
+        btn.addEventListener("click", (e) => {
+          e.preventDefault();
+
+          if (!appUpdatesData || appUpdatesData.length === 0) return;
+
+          const latest = appUpdatesData[0];
+          const links = (latest.downloadUrl && latest.downloadUrl[0]) || {};
+
+          if (!Object.keys(links).length) return;
+
+          openArchModal(links);
+        });
       });
 
       function showPage(pageId) {
