@@ -1,40 +1,32 @@
 {
-  "latestVersion": "2.1.0",
-  "latestBuildNumber": 2038,
+  "latestVersion": "2.1.1",
+  "latestBuildNumber": 2039,
   "forceUpdate": true,
   "releaseNotes": "- UI modernization and navigation improvements, and many more...\n\nTeam Netra",
   "changelog": [
     {
       "type": "MAJOR",
-      "text": "Improved performance with better downloads, video fetching, and Cloudflare handling."
+      "text": "Introduced VoIP support for Watch Party enabling real-time voice communication between users."
     },
     {
       "type": "NEW",
-      "text": "Added DudeFilms, CinemaCity, and more content categories."
-    },
-    {
-      "type": "NEW",
-      "text": "Enhanced UI for providers, detail pages, and navigation."
-    },
-    {
-      "type": "NEW",
-      "text": "Upgraded Watch Party with room IDs and real-time chat improvements."
+      "text": "Added in-app chat support allowing users to directly communicate with the developer."
     },
     {
       "type": "FIX",
-      "text": "Fixed search, navigation issues, and improved TV remote support."
+      "text": "Improved MX Player integration and enhanced NetMirror cookie fetching reliability."
     },
     {
       "type": "FIX",
-      "text": "Optimized device info, headers, and analytics."
+      "text": "Refined UI of TV home screen and settings page for a smoother and cleaner experience."
     }
   ],
   "updateUrl": "https://netraplay.vercel.app/#updates",
   "downloadUrl": [
     {
-      "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.0-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.0-armeabi-v7a-release.apk",
-      "universal": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.0-universal-release.apk"
+      "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.1-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.1-armeabi-v7a-release.apk",
+      "universal": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.1-universal-release.apk"
     }
   ],
   "lockApp": false,
