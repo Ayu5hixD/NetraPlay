@@ -12,6 +12,11 @@
         "universal": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.2-universal-release.apk"
       }
     ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.2-windows-x64-release.exe"
+      }
+    ],
     "changelog": [
       {
         "type": "NEW",
@@ -56,6 +61,11 @@
         "universal": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.1-universal-release.apk"
       }
     ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
     "changelog": [
       {
         "type": "MAJOR",
@@ -86,6 +96,11 @@
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.0-arm64-v8a-release.apk",
         "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.0-armeabi-v7a-release.apk",
         "universal": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
       }
     ],
     "changelog": [
@@ -128,6 +143,11 @@
         "universal": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.0.0-universal-release.apk"
       }
     ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
     "changelog": [
       {
         "type": "NEW",
@@ -154,6 +174,11 @@
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.1-arm64-v8a-release.apk",
         "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.1-armeabi-v7a-release.apk",
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.1-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
       }
     ],
     "changelog": [
@@ -186,6 +211,11 @@
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.0-arm64-v8a-release.apk",
         "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.0-armeabi-v7a-release.apk",
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
       }
     ],
     "changelog": [
@@ -224,6 +254,11 @@
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.3-universal-release.apk"
       }
     ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
     "changelog": [
       {
         "type": "FIX",
@@ -246,6 +281,11 @@
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.2-arm64-v8a-release.apk",
         "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.2-armeabi-v7a-release.apk",
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.2-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
       }
     ],
     "changelog": [
@@ -272,6 +312,11 @@
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.1-universal-release.apk"
       }
     ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
     "changelog": [
       {
         "type": "NEW",
@@ -296,12 +341,17 @@
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.0-universal-release.apk"
       }
     ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
     "changelog": [
       {
         "type": "NEW",
         "text": "Enhanced Local Files with file manager navigation for Mobile & Added Full TV Support."
       },
-       {
+      {
         "type": "NEW",
         "text": "Add Zip Pack support and enhance movie detail UI."
       },
@@ -332,6 +382,11 @@
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.4-universal-release.apk"
       }
     ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
     "changelog": [
       {
         "type": "NEW",
@@ -358,6 +413,11 @@
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.3-arm64-v8a-release.apk",
         "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.3-armeabi-v7a-release.apk",
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.3-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
       }
     ],
     "changelog": [
@@ -392,6 +452,11 @@
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.2-universal-release.apk"
       }
     ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
     "changelog": [
       {
         "type": "FIX",
@@ -410,6 +475,11 @@
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.1-arm64-v8a-release.apk",
         "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.1-armeabi-v7a-release.apk",
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.1-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
       }
     ],
     "changelog": [
@@ -442,6 +512,11 @@
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.0-arm64-v8a-release.apk",
         "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.0-armeabi-v7a-release.apk",
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
       }
     ],
     "changelog": [
@@ -484,6 +559,11 @@
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.1-universal-release.apk"
       }
     ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
     "changelog": [
       {
         "type": "NEW",
@@ -518,6 +598,11 @@
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.0-arm64-v8a-release.apk",
         "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.0-armeabi-v7a-release.apk",
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
       }
     ],
     "changelog": [
@@ -560,6 +645,11 @@
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.3.1-universal-release.apk"
       }
     ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
     "changelog": [
       {
         "type": "NEW",
@@ -582,6 +672,11 @@
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.3.0-arm64-v8a-release.apk",
         "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.3.0-armeabi-v7a-release.apk",
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.3.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
       }
     ],
     "changelog": [
@@ -612,6 +707,11 @@
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.3-universal-release.apk"
       }
     ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
     "changelog": [
       {
         "type": "NEW",
@@ -638,6 +738,11 @@
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.2-arm64-v8a-release.apk",
         "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.2-armeabi-v7a-release.apk",
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.2-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
       }
     ],
     "changelog": [
@@ -672,6 +777,11 @@
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.1-universal-release.apk"
       }
     ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
     "changelog": [
       {
         "type": "FIX",
@@ -694,6 +804,11 @@
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.0-arm64-v8a-release.apk",
         "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.0-armeabi-v7a-release.apk",
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
       }
     ],
     "changelog": [
@@ -720,6 +835,11 @@
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.4-universal-release.apk"
       }
     ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
     "changelog": [
       {
         "type": "NEW",
@@ -742,6 +862,11 @@
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.3-arm64-v8a-release.apk",
         "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.3-armeabi-v7a-release.apk",
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.3-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
       }
     ],
     "changelog": [
@@ -768,6 +893,11 @@
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.2-universal-release.apk"
       }
     ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
     "changelog": [
       {
         "type": "FIX",
@@ -790,6 +920,11 @@
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.1-arm64-v8a-release.apk",
         "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.1-armeabi-v7a-release.apk",
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.1-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
       }
     ],
     "changelog": [
@@ -822,6 +957,11 @@
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.0-arm64-v8a-release.apk",
         "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.0-armeabi-v7a-release.apk",
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
       }
     ],
     "changelog": [
@@ -884,6 +1024,11 @@
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.4-universal-release.apk"
       }
     ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
     "changelog": [
       {
         "type": "NEW",
@@ -916,6 +1061,11 @@
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.3-universal-release.apk"
       }
     ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
     "changelog": [
       {
         "type": "MAJOR",
@@ -940,6 +1090,11 @@
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.2-universal-release.apk"
       }
     ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
     "changelog": [
       {
         "type": "IMPROVEMENT",
@@ -962,6 +1117,11 @@
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.1-arm64-v8a-release.apk",
         "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.1-armeabi-v7a-release.apk",
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.1-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
       }
     ],
     "changelog": [
@@ -990,6 +1150,11 @@
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.0-arm64-v8a-release.apk",
         "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.0-armeabi-v7a-release.apk",
         "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
       }
     ],
     "changelog": [
