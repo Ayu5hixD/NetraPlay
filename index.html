@@ -705,6 +705,7 @@
       universal: "Universal (All Devices)",
       "arm64-v8a": "Modern 64-bit Phones",
       "armeabi-v7a": "Older Phones / Android TV",
+      "windows-x64": "Windows 64-bit",
     };
 
     const getArchDisplayName = (arch) => archDisplayNames[arch] || arch;
@@ -913,8 +914,14 @@
           btn.innerHTML = `
       <div class="flex flex-col">
         <span>${display}</span>
+        <span class="text-xs text-gray-500">
+          ${arch.startsWith("windows") ? "Desktop" : "Android"}
+        </span>
       </div>
-      <i class="fa-solid fa-download"></i>
+      <i class="fa-solid ${arch.startsWith("windows")
+              ? "fa-desktop"
+              : "fa-download"
+            }"></i>
     `;
 
           btn.addEventListener("click", () => {
@@ -963,7 +970,14 @@
           if (!appUpdatesData || appUpdatesData.length === 0) return;
 
           const latest = appUpdatesData[0];
-          const links = (latest.downloadUrl && latest.downloadUrl[0]) || {};
+          const androidLinks = (latest.downloadUrl && latest.downloadUrl[0]) || {};
+          const desktopLinks =
+            (latest.desktopDownloadUrl && latest.desktopDownloadUrl[0]) || {};
+
+          const links = {
+            ...androidLinks,
+            ...desktopLinks,
+          };
 
           if (!Object.keys(links).length) return;
 
