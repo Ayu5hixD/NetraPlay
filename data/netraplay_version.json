@@ -5,20 +5,32 @@
   "releaseNotes": "- UI modernization and navigation improvements, and many more...\n\nTeam Netra",
   "changelog": [
     {
-      "type": "MAJOR",
-      "text": "Introduced VoIP support for Watch Party enabling real-time voice communication between users."
+      "type": "NEW",
+      "text": "Added AnimeSalt and PirateXPlay providers."
     },
     {
       "type": "NEW",
-      "text": "Added in-app chat support allowing users to directly communicate with the developer."
+      "text": "Added instant sync for Continue Watching and auto-scroll for provider selection."
+    },
+    {
+      "type": "IMPROVEMENT",
+      "text": "Improved NetMirror performance and site scraping reliability."
+    },
+    {
+      "type": "IMPROVEMENT",
+      "text": "Enhanced Continue Watching UI and resume compatibility."
+    },
+    {
+      "type": "IMPROVEMENT",
+      "text": "Improved extractor stability and Cloudflare solver performance."
     },
     {
       "type": "FIX",
-      "text": "Improved MX Player integration and enhanced NetMirror cookie fetching reliability."
+      "text": "Fixed Android TV player remote focus color issues."
     },
     {
       "type": "FIX",
-      "text": "Refined UI of TV home screen and settings page for a smoother and cleaner experience."
+      "text": "Resolved subtitle and provider-related issues."
     }
   ],
   "updateUrl": "https://netraplay.vercel.app/#updates",
