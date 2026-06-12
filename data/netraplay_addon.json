@@ -30,6 +30,18 @@
     "category": "Entertainment"
   },
   {
+    "title": "Disney+ Hotstar - Live TV",
+    "description": "Watch Live TV channels, Movies, and Shows on Disney+ Hotstar. Enjoy a wide range of entertainment content.",
+    "playlist_link": "https://netraplay.short.gy/hotstar.json",
+    "category": "Entertainment"
+  },
+  {
+    "title": "CricHD - Live Sports",
+    "description": "Watch Live Sports channels, Matches, and Highlights on CricHD. Stay updated with the latest sports action.",
+    "playlist_link": "https://netraplay.short.gy/crichd.m3u",
+    "category": "Sports"
+  },
+  {
     "title": "Live Sports - WorldWide",
     "description": "Watch Live Sports channels, Matches, and Highlights. Stay updated with the latest sports action.",
     "playlist_link": "https://netraplay.short.gy/livesports.json",
