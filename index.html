@@ -951,13 +951,6 @@
               } mr-2"></i> ${displayName}
               </a>`;
           });
-        } else {
-          if (links.universal) {
-            downloadButtonHtml += `
-              <button data-download-url="${links.universal}" data-version="${update.version}" data-arch="universal" class="download-old-version-btn inline-flex items-center justify-center px-4 py-2 text-sm font-medium rounded-xl border border-white/10 bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white transition-all">
-                <i class="fa-solid fa-clock-rotate-left mr-2"></i> Download ${getArchDisplayName("universal")}
-              </button>`;
-          }
         }
         downloadButtonHtml += "</div>";
 
