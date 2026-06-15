@@ -1,49 +1,37 @@
 {
-  "latestVersion": "2.1.2",
-  "latestBuildNumber": 2040,
+  "latestVersion": "3.0.0",
+  "latestBuildNumber": 2041,
   "forceUpdate": true,
   "releaseNotes": "- UI modernization and navigation improvements, and many more...\n\nTeam Netra",
   "changelog": [
     {
       "type": "NEW",
-      "text": "Added AnimeSalt and PirateXPlay providers."
-    },
-    {
-      "type": "NEW",
-      "text": "Added instant sync for Continue Watching and auto-scroll for provider selection."
+      "text": "Added full Desktop support with adds-on playlists."
     },
     {
       "type": "IMPROVEMENT",
-      "text": "Improved NetMirror performance and site scraping reliability."
+      "text": "Redesigned TV UI with better navigation and usability."
     },
     {
       "type": "IMPROVEMENT",
-      "text": "Enhanced Continue Watching UI and resume compatibility."
+      "text": "Improved player, extractor, and source loading performance."
     },
     {
       "type": "IMPROVEMENT",
-      "text": "Improved extractor stability and Cloudflare solver performance."
-    },
-    {
-      "type": "FIX",
-      "text": "Fixed Android TV player remote focus color issues."
-    },
-    {
-      "type": "FIX",
-      "text": "Resolved subtitle and provider-related issues."
+      "text": "Refined UI consistency with the new AppSnackbar system."
     }
   ],
   "updateUrl": "https://netraplay.vercel.app/#updates",
   "downloadUrl": [
     {
-      "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.2-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.2-armeabi-v7a-release.apk",
-      "universal": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.2-universal-release.apk"
+      "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.0.0-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.0.0-armeabi-v7a-release.apk",
+      "universal": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.0.0-universal-release.apk"
     }
   ],
   "desktopDownloadUrl": [
     {
-      "windows-x64": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.2-windows-x64-release.exe"
+      "windows-x64": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.0.0-win-release.exe"
     }
   ],
   "lockApp": false,
