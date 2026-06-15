@@ -1,10 +1,51 @@
 [
   {
-    "version": "2.1.2 (Latest)",
-    "date": "May 19, 2026",
+    "version": "3.0.0 (Latest)",
+    "date": "June 15, 2026",
     "icon": "fa-rocket",
     "color": "bg-primary-500",
     "ring": "ring-primary-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.0.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.0.0-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.0.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.0.0-win-release.exe"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Introduced full Desktop support with dedicated sources, playlists, and optimized playback experience."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Redesigned Desktop and TV interfaces with improved navigation, responsiveness, and large-screen usability."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Enhanced WebView player, extractor engine, and source handling for faster loading and better compatibility."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Unified AppSnackbar system and refined top information display for a cleaner, more consistent UI across platforms."
+      },
+      {
+        "type": "FIX",
+        "text": "Resolved multiple playback, source extraction, build, and platform-specific stability issues including Windows and Android release builds."
+      }
+    ]
+  },
+  {
+    "version": "2.1.2",
+    "date": "May 19, 2026",
+    "icon": "fa-clock",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
     "downloadUrl": [
       {
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.2-arm64-v8a-release.apk",
