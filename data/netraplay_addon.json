@@ -52,5 +52,11 @@
     "description": "Watch Live TV channels, Movies, and Shows on Sun NXT. Enjoy a wide range of entertainment content.",
     "playlist_link": "https://netraplay.short.gy/sunnxt.json",
     "category": "Entertainment"
+  },
+  {
+    "title": "Samsung TV+ India",
+    "description": "Watch 150+ free live TV channels, movies, news, sports, music, and entertainment on Samsung TV Plus India.",
+    "playlist_link": "https://netraplay.short.gy/samsungtvplus-india.m3u",
+    "category": "Entertainment"
   }
 ]
