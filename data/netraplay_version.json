@@ -1,37 +1,41 @@
 {
-  "latestVersion": "3.0.0",
-  "latestBuildNumber": 2042,
+  "latestVersion": "3.1.0",
+  "latestBuildNumber": 2043,
   "forceUpdate": true,
   "releaseNotes": "- UI modernization and navigation improvements, and many more...\n\nTeam Netra",
   "changelog": [
     {
       "type": "NEW",
-      "text": "Added full Desktop support with adds-on playlists."
+      "text": "Added Torrent support with metadata, controls, and streaming."
+    },
+    {
+      "type": "NEW",
+      "text": "Introduced TorrentProvider for state, metadata, and stats updates."
     },
     {
       "type": "IMPROVEMENT",
-      "text": "Redesigned TV UI with better navigation and usability."
+      "text": "Improved torrent UI for portrait and landscape layouts."
     },
     {
       "type": "IMPROVEMENT",
-      "text": "Improved player, extractor, and source loading performance."
+      "text": "Optimized torrent playback, lifecycle, and streaming stability."
     },
     {
-      "type": "IMPROVEMENT",
-      "text": "Refined UI consistency with the new AppSnackbar system."
+      "type": "FIX",
+      "text": "Fixed URL decoding for better extractor compatibility."
     }
   ],
   "updateUrl": "https://netraplay.vercel.app/#updates",
   "downloadUrl": [
     {
-      "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.0.0-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.0.0-armeabi-v7a-release.apk",
-      "universal": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.0.0-universal-release.apk"
+      "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.1.0-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.1.0-armeabi-v7a-release.apk",
+      "universal": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.1.0-universal-release.apk"
     }
   ],
   "desktopDownloadUrl": [
     {
-      "windows-x64": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.0.0-win-release.exe"
+      "windows-x64": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.1.0-win-release.exe"
     }
   ],
   "lockApp": false,
