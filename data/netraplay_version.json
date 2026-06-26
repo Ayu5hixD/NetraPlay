@@ -13,6 +13,10 @@
       "text": "Introduced TorrentProvider for state, metadata, and stats updates."
     },
     {
+      "type": "NEW",
+      "text": "Added custom DRM player on Desktop with a redesigned UI."
+    },
+    {
       "type": "IMPROVEMENT",
       "text": "Improved torrent UI for portrait and landscape layouts."
     },
