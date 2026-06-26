@@ -1,10 +1,51 @@
 [
   {
-    "version": "3.0.0 (Latest)",
-    "date": "June 15, 2026",
+    "version": "3.1.0 (Latest)",
+    "date": "June 26, 2026",
     "icon": "fa-rocket",
     "color": "bg-primary-500",
     "ring": "ring-primary-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.1.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.1.0-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.1.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.1.0-win-release.exe"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Added Torrent support with metadata, controls, and streaming."
+      },
+      {
+        "type": "NEW",
+        "text": "Introduced TorrentProvider for state, metadata, and stats updates."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Improved torrent UI for portrait and landscape layouts."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Optimized torrent playback, lifecycle, and streaming stability."
+      },
+      {
+        "type": "FIX",
+        "text": "Fixed URL decoding for better extractor compatibility."
+      }
+    ]
+  },
+  {
+    "version": "3.0.0",
+    "date": "June 15, 2026",
+    "icon": "fa-plane",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
     "downloadUrl": [
       {
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.0.0-arm64-v8a-release.apk",
