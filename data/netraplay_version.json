@@ -6,27 +6,27 @@
   "changelog": [
     {
       "type": "NEW",
-      "text": "Added Torrent support with metadata, controls, and streaming."
+      "text": "Enhanced Desktop UI with a Linux-style header bar."
     },
     {
       "type": "NEW",
-      "text": "Introduced TorrentProvider for state, metadata, and stats updates."
+      "text": "Introduced Continue Watching across Mobile, TV, and Desktop."
     },
     {
       "type": "NEW",
-      "text": "Added custom DRM player on Desktop with a redesigned UI."
+      "text": "Added Netra Share with QR-based device sharing and custom download locations."
+    },
+    {
+      "type": "NEW",
+      "text": "Enhanced deep link support with improved cross-platform sharing."
     },
     {
       "type": "IMPROVEMENT",
-      "text": "Improved torrent UI for portrait and landscape layouts."
-    },
-    {
-      "type": "IMPROVEMENT",
-      "text": "Optimized torrent playback, lifecycle, and streaming stability."
+      "text": "Improved media extraction, Google Video playback, and streaming compatibility."
     },
     {
       "type": "FIX",
-      "text": "Fixed URL decoding for better extractor compatibility."
+      "text": "Fixed download reliability, memory leaks, and Android build stability."
     }
   ],
   "updateUrl": "https://netraplay.vercel.app/#updates",
