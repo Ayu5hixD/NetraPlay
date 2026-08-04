@@ -1,6 +1,6 @@
 {
-  "latestVersion": "3.1.0",
-  "latestBuildNumber": 2043,
+  "latestVersion": "3.2.0",
+  "latestBuildNumber": 2044,
   "forceUpdate": true,
   "releaseNotes": "- UI modernization and navigation improvements, and many more...\n\nTeam Netra",
   "changelog": [
@@ -32,14 +32,14 @@
   "updateUrl": "https://netraplay.vercel.app/#updates",
   "downloadUrl": [
     {
-      "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.1.0-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.1.0-armeabi-v7a-release.apk",
-      "universal": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.1.0-universal-release.apk"
+      "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.0-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.0-armeabi-v7a-release.apk",
+      "universal": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.0-universal-release.apk"
     }
   ],
   "desktopDownloadUrl": [
     {
-      "windows-x64": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.1.0-win-release.exe"
+      "windows-x64": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.0-win-release.exe"
     }
   ],
   "lockApp": false,
