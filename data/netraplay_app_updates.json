@@ -1,10 +1,55 @@
 [
   {
-    "version": "3.1.0 (Latest)",
-    "date": "June 26, 2026",
+    "version": "3.2.0 (Latest)",
+    "date": "August 4, 2026",
     "icon": "fa-rocket",
     "color": "bg-primary-500",
     "ring": "ring-primary-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.0-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.0-win-release.exe"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Enhanced Desktop UI with a Linux-style header bar."
+      },
+      {
+        "type": "NEW",
+        "text": "Introduced Continue Watching across Mobile, TV, and Desktop."
+      },
+      {
+        "type": "NEW",
+        "text": "Added Netra Share with QR-based device sharing and custom download locations."
+      },
+      {
+        "type": "NEW",
+        "text": "Enhanced deep link support with improved cross-platform sharing."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Improved media extraction, Google Video playback, and streaming compatibility."
+      },
+      {
+        "type": "FIX",
+        "text": "Fixed download reliability, memory leaks, and Android build stability."
+      }
+    ]
+  },
+  {
+    "version": "3.1.0",
+    "date": "June 26, 2026",
+    "icon": "fa-bus",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
     "downloadUrl": [
       {
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.1.0-arm64-v8a-release.apk",
