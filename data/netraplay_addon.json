@@ -58,5 +58,11 @@
     "description": "Watch 150+ free live TV channels, movies, news, sports, music, and entertainment on Samsung TV Plus India.",
     "playlist_link": "https://netraplay.short.gy/samsungtvplus-india.m3u",
     "category": "Entertainment"
+  },
+  {
+    "title": "LG TV+",
+    "description": "Watch 150+ free live TV channels, movies, news, sports, music, and entertainment on LG TV.",
+    "playlist_link": "https://netraplay.short.gy/lgtv.m3u",
+    "category": "Entertainment"
   }
 ]
