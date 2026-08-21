@@ -1,10 +1,43 @@
 [
   {
-    "version": "3.2.0 (Latest)",
-    "date": "August 4, 2026",
+    "version": "3.2.1 (Latest)",
+    "date": "August 21, 2026",
     "icon": "fa-rocket",
     "color": "bg-primary-500",
     "ring": "ring-primary-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.0-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.0-win-release.exe"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Revamped native video player UI with frosted glass controls, deep blur gradients, and smooth micro-fade animations."
+      },
+      {
+        "type": "FIX",
+        "text": "Improved download management, resumable downloads, queue retries, notifications, file deletion, and folder access."
+      },
+      {
+        "type": "FIX",
+        "text": "Improved file transfers with progress notifications, multi-device sending, multi-IP selection and network rescan."
+      }
+    ]
+  },
+  {
+    "version": "3.2.0",
+    "date": "August 4, 2026",
+    "icon": "fa-ball",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
     "downloadUrl": [
       {
         "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.0-arm64-v8a-release.apk",
