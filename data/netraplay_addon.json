@@ -1,0 +1,68 @@
+[
+  {
+    "title": "JioTV - Live TV",
+    "description": "Watch Live TV channels, Movies, and Shows on JioTV. Enjoy a wide range of entertainment content.",
+    "playlist_link": "https://netraplay.short.gy/jiotv.json",
+    "category": "Entertainment"
+  },
+  {
+    "title": "FanCode - Live Sports",
+    "description": "Live Sports, Scores, News, and Highlights. Follow your favorite teams and players with Fancode.",
+    "playlist_link": "https://netraplay.short.gy/fancode.m3u",
+    "category": "Sports"
+  },
+  {
+    "title": "SonyLIV - Live Sports",
+    "description": "Watch Live Sports on SonyLIV. Stream your favorite content anytime, anywhere.",
+    "playlist_link": "https://netraplay.short.gy/sonyliv.m3u",
+    "category": "Sports"
+  },
+  {
+    "title": "Zee5 - Live TV",
+    "description": "Stream Live TV channels, Movies, and Shows on Zee5. Enjoy a variety of entertainment content.",
+    "playlist_link": "https://netraplay.short.gy/zee5.json",
+    "category": "Entertainment"
+  },
+  {
+    "title": "SonyLIV - LiveTV",
+    "description": "Stream Live TV channels, Movies, and Shows on SonyLIV. Enjoy your favorite content anytime, anywhere.",
+    "playlist_link": "https://netraplay.short.gy/sonytv.m3u",
+    "category": "Entertainment"
+  },
+  {
+    "title": "Disney+ Hotstar - Live TV",
+    "description": "Watch Live TV channels, Movies, and Shows on Disney+ Hotstar. Enjoy a wide range of entertainment content.",
+    "playlist_link": "https://netraplay.short.gy/hotstar.json",
+    "category": "Entertainment"
+  },
+  {
+    "title": "CricHD - Live Sports",
+    "description": "Watch Live Sports channels, Matches, and Highlights on CricHD. Stay updated with the latest sports action.",
+    "playlist_link": "https://netraplay.short.gy/crichd.m3u",
+    "category": "Sports"
+  },
+  {
+    "title": "Live Sports - WorldWide",
+    "description": "Watch Live Sports channels, Matches, and Highlights. Stay updated with the latest sports action.",
+    "playlist_link": "https://netraplay.short.gy/livesports.json",
+    "category": "Sports"
+  },
+  {
+    "title": "SunNXT - Live TV",
+    "description": "Watch Live TV channels, Movies, and Shows on Sun NXT. Enjoy a wide range of entertainment content.",
+    "playlist_link": "https://netraplay.short.gy/sunnxt.json",
+    "category": "Entertainment"
+  },
+  {
+    "title": "Samsung TV+ India",
+    "description": "Watch 150+ free live TV channels, movies, news, sports, music, and entertainment on Samsung TV Plus India.",
+    "playlist_link": "https://netraplay.short.gy/samsungtvplus-india.m3u",
+    "category": "Entertainment"
+  },
+  {
+    "title": "LG TV+",
+    "description": "Watch 150+ free live TV channels, movies, news, sports, music, and entertainment on LG TV.",
+    "playlist_link": "https://netraplay.short.gy/lgtv.m3u",
+    "category": "Entertainment"
+  }
+]

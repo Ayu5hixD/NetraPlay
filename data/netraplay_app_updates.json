@@ -1,0 +1,1339 @@
+[
+  {
+    "version": "3.2.1 (Latest)",
+    "date": "August 21, 2026",
+    "icon": "fa-rocket",
+    "color": "bg-primary-500",
+    "ring": "ring-primary-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.1-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.1-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.1-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.1-win-release.exe"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Revamped native video player UI with frosted glass controls, deep blur gradients, and smooth micro-fade animations."
+      },
+      {
+        "type": "FIX",
+        "text": "Improved download management, resumable downloads, queue retries, notifications, file deletion, and folder access."
+      },
+      {
+        "type": "FIX",
+        "text": "Improved file transfers with progress notifications, multi-device sending, multi-IP selection and network rescan."
+      }
+    ]
+  },
+  {
+    "version": "3.2.0",
+    "date": "August 4, 2026",
+    "icon": "fa-cat",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.0-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.2.0-win-release.exe"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Enhanced Desktop UI with a Linux-style header bar."
+      },
+      {
+        "type": "NEW",
+        "text": "Introduced Continue Watching across Mobile, TV, and Desktop."
+      },
+      {
+        "type": "NEW",
+        "text": "Added Netra Share with QR-based device sharing and custom download locations."
+      },
+      {
+        "type": "NEW",
+        "text": "Enhanced deep link support with improved cross-platform sharing."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Improved media extraction, Google Video playback, and streaming compatibility."
+      },
+      {
+        "type": "FIX",
+        "text": "Fixed download reliability, memory leaks, and Android build stability."
+      }
+    ]
+  },
+  {
+    "version": "3.1.0",
+    "date": "June 26, 2026",
+    "icon": "fa-bus",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.1.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.1.0-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.1.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.1.0-win-release.exe"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Added Torrent support with metadata, controls, and streaming."
+      },
+      {
+        "type": "NEW",
+        "text": "Introduced TorrentProvider for state, metadata, and stats updates."
+      },
+      {
+        "type": "NEW",
+        "text": "Added custom DRM player on Desktop with a redesigned UI."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Improved torrent UI for portrait and landscape layouts."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Optimized torrent playback, lifecycle, and streaming stability."
+      },
+      {
+        "type": "FIX",
+        "text": "Fixed URL decoding for better extractor compatibility."
+      }
+    ]
+  },
+  {
+    "version": "3.0.0",
+    "date": "June 15, 2026",
+    "icon": "fa-plane",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.0.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.0.0-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.0.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": "https://app.netraplay.workers.dev/0:/app/v3/netraplay.3.0.0-win-release.exe"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Introduced full Desktop support with dedicated sources, playlists, and optimized playback experience."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Redesigned Desktop and TV interfaces with improved navigation, responsiveness, and large-screen usability."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Enhanced WebView player, extractor engine, and source handling for faster loading and better compatibility."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Unified AppSnackbar system and refined top information display for a cleaner, more consistent UI across platforms."
+      },
+      {
+        "type": "FIX",
+        "text": "Resolved multiple playback, source extraction, build, and platform-specific stability issues including Windows and Android release builds."
+      }
+    ]
+  },
+  {
+    "version": "2.1.2",
+    "date": "May 19, 2026",
+    "icon": "fa-clock",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.2-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.2-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.2-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Added AnimeSalt and PirateXPlay providers."
+      },
+      {
+        "type": "NEW",
+        "text": "Added instant sync for Continue Watching and auto-scroll for provider selection."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Improved NetMirror performance and site scraping reliability."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Enhanced Continue Watching UI and resume compatibility."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Improved extractor stability and Cloudflare solver performance."
+      },
+      {
+        "type": "FIX",
+        "text": "Fixed Android TV player remote focus color issues."
+      },
+      {
+        "type": "FIX",
+        "text": "Resolved subtitle and provider-related issues."
+      }
+    ]
+  },
+  {
+    "version": "2.1.1",
+    "date": "April 26, 2026",
+    "icon": "fa-bug",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.1-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.1-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.1-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "MAJOR",
+        "text": "Introduced VoIP support for Watch Party enabling real-time voice communication between users."
+      },
+      {
+        "type": "NEW",
+        "text": "Added in-app chat support allowing users to directly communicate with the developer."
+      },
+      {
+        "type": "FIX",
+        "text": "Improved MX Player integration and enhanced NetMirror cookie fetching reliability."
+      },
+      {
+        "type": "FIX",
+        "text": "Refined UI of TV home screen and settings page for a smoother and cleaner experience."
+      }
+    ]
+  },
+  {
+    "version": "2.1.0",
+    "date": "April 14, 2026",
+    "icon": "fa-download",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.0-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.1.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "MAJOR",
+        "text": "Enhanced overall app performance with improved download system, local video fetching, and Cloudflare optimizations."
+      },
+      {
+        "type": "NEW",
+        "text": "Added new providers including DudeFilms and CinemaCity, along with expanded content categories."
+      },
+      {
+        "type": "NEW",
+        "text": "Refined UI across multiple sections including provider selection, detail pages, and homepage navigation."
+      },
+      {
+        "type": "NEW",
+        "text": "Introduced Watch Party upgrades with unique room IDs, real-time typing indicator, and improved chat experience."
+      },
+      {
+        "type": "FIX",
+        "text": "Resolved search issues, navigation bugs, and improved back button behavior with better TV remote support."
+      },
+      {
+        "type": "FIX",
+        "text": "Optimized device info handling, headers, and analytics integration for better app stability and tracking."
+      }
+    ]
+  },
+  {
+    "version": "2.0.0",
+    "date": "April 1, 2026",
+    "icon": "fa-star",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.0.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.0.0-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v2/netraplay.2.0.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Revamped mobile and TV home screen UI/UX for a more premium and consistent look."
+      },
+      {
+        "type": "NEW",
+        "text": "Introduced quality tag overlay on poster thumbnails for quick content identification."
+      },
+      {
+        "type": "FIX",
+        "text": "Improved TV player focus navigation to eliminate focus loss and enhance remote usability."
+      }
+    ]
+  },
+  {
+    "version": "1.7.1",
+    "date": "March 19, 2026",
+    "icon": "fa-car",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.1-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.1-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.1-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "UI/UX improvements for a smoother user experience."
+      },
+      {
+        "type": "NEW",
+        "text": "Added Roboto font support in the TV UI for better readability."
+      },
+      {
+        "type": "FIX",
+        "text": "Improved Android TV remote navigation for better compatibility."
+      },
+      {
+        "type": "FIX",
+        "text": "Resolved TV navigation issues in the native player."
+      }
+    ]
+  },
+  {
+    "version": "1.7.0",
+    "date": "March 8, 2026",
+    "icon": "fa-plane",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.0-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.7.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Faster downloads with parallel downloading, including ETA and live speed."
+      },
+      {
+        "type": "NEW",
+        "text": "Chat messages now show the exact sent time (e.g., 09:45 AM)."
+      },
+      {
+        "type": "NEW",
+        "text": "Added a Changelogs section in Settings to view the latest app updates."
+      },
+      {
+        "type": "FIX",
+        "text": "Improved Android TV remote navigation for better compatibility."
+      },
+      {
+        "type": "FIX",
+        "text": "Added Cloudflare solver support for more sites to improve access."
+      }
+    ]
+  },
+  {
+    "version": "1.6.3",
+    "date": "February 16, 2026",
+    "icon": "fa-clock",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.3-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.3-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.3-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "FIX",
+        "text": "Fixes auto-fill stream data for the custom player."
+      },
+      {
+        "type": "FIX",
+        "text": "Resolved link resolution issues."
+      }
+    ]
+  },
+  {
+    "version": "1.6.2",
+    "date": "February 14, 2026",
+    "icon": "fa-dice",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.2-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.2-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.2-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Introduced multiple new content categories across various providers."
+      },
+      {
+        "type": "FIX",
+        "text": "Resolved link resolution issues in the Extractor service and addressed multiple provider-related problems."
+      }
+    ]
+  },
+  {
+    "version": "1.6.1",
+    "date": "February 5, 2026",
+    "icon": "fa-fire",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.1-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.1-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.1-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Integrated a real-time chat UI overlay into the video player to enhance the Watch Party experience."
+      },
+      {
+        "type": "FIX",
+        "text": "Updated to PopScope to support Android 14 predictive back gestures."
+      }
+    ]
+  },
+  {
+    "version": "1.6.0",
+    "date": "February 2, 2026",
+    "icon": "fa-tv",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.0-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.6.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Enhanced Local Files with file manager navigation for Mobile & Added Full TV Support."
+      },
+      {
+        "type": "NEW",
+        "text": "Add Zip Pack support and enhance movie detail UI."
+      },
+      {
+        "type": "FIX",
+        "text": "Optimize provider switching and fix race conditions in content loading."
+      },
+      {
+        "type": "FIX",
+        "text": "Refactor providers, optimize scrapers, and add search filtering."
+      },
+      {
+        "type": "FIX",
+        "text": "Optimize search performance and enhance history management."
+      }
+    ]
+  },
+  {
+    "version": "1.5.4",
+    "date": "January 20, 2026",
+    "icon": "fa-ring",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.4-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.4-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.4-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Introduced a robust Cloudflare Solver with an internal request queue to safely handle multiple concurrent challenge resolutions without blocking the application."
+      },
+      {
+        "type": "FIX",
+        "text": "Resolved source selection issues in the video player, ensuring the correct stream is consistently chosen during playback initialization."
+      },
+      {
+        "type": "FIX",
+        "text": "Fixed multiple player-related stability and playback issues, including stream switching, buffering inconsistencies, and unexpected player resets."
+      }
+    ]
+  },
+  {
+    "version": "1.5.3",
+    "date": "January 14, 2026",
+    "icon": "fa-tools",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.3-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.3-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.3-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "TV UI/UX design has been completely overhauled for a more modern, smooth, and user-friendly viewing experience."
+      },
+      {
+        "type": "FIX",
+        "text": "Resolved Android TV remote D-Pad navigation issues to ensure accurate and responsive focus movement."
+      },
+      {
+        "type": "FIX",
+        "text": "Fixed pinch-to-zoom gesture handling and added a dedicated setting to enable or disable zoom functionality."
+      },
+      {
+        "type": "FIX",
+        "text": "Improved and corrected provider extraction logic for better compatibility and faster content loading."
+      }
+    ]
+  },
+  {
+    "version": "1.5.2",
+    "date": "January 10, 2026",
+    "icon": "fa-trash",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.2-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.2-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.2-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "FIX",
+        "text": "Refactored TV update dialog with architecture-specific APK support and seamless in-app install."
+      }
+    ]
+  },
+  {
+    "version": "1.5.1",
+    "date": "January 8, 2026",
+    "icon": "fa-dog",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.1-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.1-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.1-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Introduced multiple new content providers to expand movie and series availability."
+      },
+      {
+        "type": "FIX",
+        "text": "Resolved playback issues occurring on specific device models to ensure stable media streaming."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Enhanced search functionality with advanced filtering options for faster and more precise content discovery."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Optimized scraping engine performance, significantly reducing content loading times."
+      }
+    ]
+  },
+  {
+    "version": "1.5.0",
+    "date": "December 20, 2025",
+    "icon": "fa-cat",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.0-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.5.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Redesigned the native player interface to deliver a cleaner, more intuitive, and user-friendly viewing experience."
+      },
+      {
+        "type": "NEW",
+        "text": "Added support for deep linking and integrated social sharing functionality."
+      },
+      {
+        "type": "NEW",
+        "text": "Introduced gesture-based playback speed controls with haptic feedback for enhanced interaction."
+      },
+      {
+        "type": "FIX",
+        "text": "Stabilized Picture-in-Picture behavior on devices running Android 12 and later."
+      },
+      {
+        "type": "FIX",
+        "text": "Enhanced the link resolving mechanism by enabling automatic background resolution and providing multiple stream options through the player’s “Source” control."
+      },
+      {
+        "type": "FIX",
+        "text": "Enforced correct MIME-type handling to prevent media extractor misselection during playback."
+      }
+    ]
+  },
+  {
+    "version": "1.4.1",
+    "date": "December 8, 2025",
+    "icon": "fa-play",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.1-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.1-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.1-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Added custom Lottie loading animations and shimmer effects for better UI feedback."
+      },
+      {
+        "type": "FIX",
+        "text": "Resolved player crash on Xiaomi/MTK devices by filtering buggy secure decoders."
+      },
+      {
+        "type": "FIX",
+        "text": "Fixed TV remote navigation and crashes by updating focus handling and XML drawables."
+      },
+      {
+        "type": "FIX",
+        "text": "Enabled playback for M3U8 playlists without extensions and fixed Kartoons extractor logic."
+      },
+      {
+        "type": "FIX",
+        "text": "Solved 'See All' blank screen issue on TV by forcing UI updates on data initialization."
+      }
+    ]
+  },
+  {
+    "version": "1.4.0",
+    "date": "December 5, 2025",
+    "icon": "fa-bug",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.0-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.4.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "MAJOR",
+        "text": "Refactored update dialog with architecture-specific APK support and seamless in-app install."
+      },
+      {
+        "type": "NEW",
+        "text": "Add floating action button to switch providers on Home Screen."
+      },
+      {
+        "type": "NEW",
+        "text": "Implement pagination and instant history updates."
+      },
+      {
+        "type": "FIX",
+        "text": "Resolved TV UI overflows, improved remote navigation, and fixed mobile RangeError."
+      },
+      {
+        "type": "FIX",
+        "text": "Improved focus management and visual feedback across all TV screens."
+      },
+      {
+        "type": "FIX",
+        "text": "Fix Xiaomi/MediaTek playback crash by switching to TextureView."
+      }
+    ]
+  },
+  {
+    "version": "1.3.1",
+    "date": "November 28, 2025",
+    "icon": "fa-info",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.3.1-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.3.1-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.3.1-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Implement Watchlist & Improve Background State Saving."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Updated `PlayerActivity.kt` to save playback position immediately in `onPause`, ensuring data is synced when entering PiP or background."
+      }
+    ]
+  },
+  {
+    "version": "1.3.0",
+    "date": "November 28, 2025",
+    "icon": "fa-map-pin",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.3.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.3.0-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.3.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Added `Addon System` and updated `PlaylistProvider` to fetch/install remote add-ons."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Implemented auto-sync to update installed add-on links from remote source."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Added explicit runtime Notification Permission request for Android 13+."
+      }
+    ]
+  },
+  {
+    "version": "1.2.3",
+    "date": "November 27, 2025",
+    "icon": "fa-globe",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.3-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.3-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.3-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "New Movie Notification feature"
+      },
+      {
+        "type": "FIX",
+        "text": "Correct background fetch paths & group updates, Optimize Watch Party sync"
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Refactor XDMovies scraper to align with new site structure"
+      }
+    ]
+  },
+  {
+    "version": "1.2.2",
+    "date": "November 22, 2025",
+    "icon": "fa-bullhorn",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.2-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.2-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.2-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "FIX",
+        "text": "Fix content loading state and UI improvements."
+      },
+      {
+        "type": "FIX",
+        "text": "Fixed ContentProvider to show shimmer loading by clearing old data immediately on fetch."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Optimized image caching with memCacheWidth to improve performance."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Updated TV LinkResolverDialog UI to match mobile (added Watch Party, gradients, quality selection)."
+      }
+    ]
+  },
+  {
+    "version": "1.2.1",
+    "date": "November 21, 2025",
+    "icon": "fa-phone",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.1-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.1-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.1-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "FIX",
+        "text": "Fixed android button navigation issue"
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Improved resolve links logic"
+      }
+    ]
+  },
+  {
+    "version": "1.2.0",
+    "date": "November 20, 2025",
+    "icon": "fa-heart",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.0-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.2.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Implement Watch Party and redesign player UI"
+      },
+      {
+        "type": "FIX",
+        "text": "Improved provider data extraction logic"
+      }
+    ]
+  },
+  {
+    "version": "1.1.4",
+    "date": "November 12, 2025",
+    "icon": "fa-virus",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.4-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.4-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.4-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Added new providers - Netflix, Prime Video, Jio Hotstar."
+      },
+      {
+        "type": "FIX",
+        "text": "Improved app loading time, fixed multiple subtitles issue, and various other improvements."
+      }
+    ]
+  },
+  {
+    "version": "1.1.3",
+    "date": "November 11, 2025",
+    "icon": "fa-pen",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.3-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.3-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.3-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Added custom headers, subtitle fetching for supported providers, and stream log display for the custom player."
+      },
+      {
+        "type": "FIX",
+        "text": "Improved provider data extraction logic and ensured resolved links persist after returning from the player screen."
+      }
+    ]
+  },
+  {
+    "version": "1.1.2",
+    "date": "November 6, 2025",
+    "icon": "fa-bus",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.2-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.2-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.2-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "FIX",
+        "text": "Resolved Google link header issues."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "TV Setting Section UI/UX overhaul."
+      }
+    ]
+  },
+  {
+    "version": "1.1.1",
+    "date": "November 6, 2025",
+    "icon": "fa-music",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.1-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.1-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.1-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Introduced dynamic episode batching for smoother browsing on both mobile and TV platforms."
+      },
+      {
+        "type": "NEW",
+        "text": "Added complete integration for 'XDMovies' and 'HiAnime' content sources."
+      },
+      {
+        "type": "FIX",
+        "text": "Resolved OkHttp header handling issues in ExoPlayer for more reliable playback."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Refined the Episode Section interface for a cleaner, more intuitive user experience."
+      }
+    ]
+  },
+  {
+    "version": "1.1.0",
+    "date": "November 5, 2025",
+    "icon": "fa-volume-up",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.0-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.1.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "MAJOR",
+        "text": "Added video resume — progress now saves for all movies, episodes, and local files."
+      },
+      {
+        "type": "NEW",
+        "text": "Added gesture: hold right side to fast-forward at 2× speed."
+      },
+      {
+        "type": "NEW",
+        "text": "Episode downloads now use unique filenames."
+      },
+      {
+        "type": "NEW",
+        "text": "Added 'Downloads' tab to the Android TV navigation rail."
+      },
+      {
+        "type": "FIX",
+        "text": "Fixed episode playback positions overwriting each other."
+      },
+      {
+        "type": "FIX",
+        "text": "Seekbar now shows correctly for local and downloaded videos."
+      },
+      {
+        "type": "FIX",
+        "text": "Downloads now keep correct file extensions (e.g., .mkv)."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Gestures now work even when player controls are visible."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Volume, brightness, and speed indicators now show on screen sides."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Player now shows full movie or episode titles instead of server names."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Download list now shows both movie and episode/quality names."
+      }
+    ]
+  },
+  {
+    "version": "1.0.4",
+    "date": "November 4, 2025",
+    "icon": "fa-globe",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.4-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.4-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.4-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Added a 'Rotate' button to the player controls to easily switch between landscape and portrait."
+      },
+      {
+        "type": "NEW",
+        "text": "Player now automatically selects the highest video quality by default when starting a video."
+      },
+      {
+        "type": "FIX",
+        "text": "Fixed a bug where the system back button and screen gestures (swipe, double-tap) still worked when the player was locked."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "The 'Unlock' button now displays text below the icon for better user clarity."
+      }
+    ]
+  },
+  {
+    "version": "1.0.3",
+    "date": "November 03, 2025",
+    "icon": "fa-link",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.3-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.3-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.3-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "MAJOR",
+        "text": "UI/UX overhaul to improve link handling."
+      },
+      {
+        "type": "FIX",
+        "text": "Enhanced provider link scraping."
+      }
+    ]
+  },
+  {
+    "version": "1.0.2",
+    "date": "November 02, 2025",
+    "icon": "fa-television",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.2-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.2-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.2-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "IMPROVEMENT",
+        "text": "Removed fixed 'NetraPlay' header from all screens."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "TV UI/UX enhancements."
+      }
+    ]
+  },
+  {
+    "version": "1.0.1",
+    "date": "October 29, 2025",
+    "icon": "fa-bug",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.1-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.1-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.1-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "IMPROVEMENT",
+        "text": "Added more movies and web-series providers."
+      },
+      {
+        "type": "NEW",
+        "text": "Added support for downloading movies and series."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "New UI for Stream Player with complete info."
+      }
+    ]
+  },
+  {
+    "version": "1.0.0 : Initial Release",
+    "date": "October 24, 2025",
+    "icon": "fa-star",
+    "color": "bg-gray-600",
+    "ring": "ring-gray-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.0-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.0-armeabi-v7a-release.apk",
+        "universal": "https://app.netraplay.workers.dev/0:/app/v1/netraplay.1.0.0-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": ""
+      }
+    ],
+    "changelog": [
+      {
+        "type": "MAJOR",
+        "text": "Complete UI Overhaul! A brand new, faster, and more intuitive design."
+      },
+      {
+        "type": "NEW",
+        "text": "Added support for 4K streaming on compatible devices."
+      },
+      {
+        "type": "IMPROVEMENT",
+        "text": "Reduced app load time by 30% on all devices."
+      }
+    ]
+  }
+]
