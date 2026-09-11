@@ -1,7 +1,7 @@
 {
   "latestVersion": "3.2.1",
   "latestBuildNumber": 2046,
-  "forceUpdate": false,
+  "forceUpdate": true,
   "releaseNotes": "- UI modernization and navigation improvements, and many more...\n\nTeam Netra",
   "changelog": [
     {
@@ -17,7 +17,7 @@
       "text": "Enhanced transfers with progress tracking and multi-device support."
     }
   ],
-  "updateUrl": "https://netraplay.vercel.app/#updates",
+  "updateUrl": "https://netraplay.vercel.app/download",
   "downloadUrl": [
     {
       "x86_64": "https://github.com/netracore/NetraPlay/releases/download/v3.2.1/netraplay.3.2.1-x86_64-release.apk",
