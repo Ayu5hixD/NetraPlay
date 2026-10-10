@@ -1,10 +1,55 @@
 [
   {
-    "version": "4.0.0 (Latest)",
-    "date": "October 07, 2026",
+    "version": "4.0.1 (Latest)",
+    "date": "October 10, 2026",
     "icon": "fa-rocket",
     "color": "bg-primary-500",
     "ring": "ring-primary-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://github.com/netracore/NetraPlay/releases/download/v4.0.1/netraplay.4.0.1-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://github.com/netracore/NetraPlay/releases/download/v4.0.1/netraplay.4.0.1-armeabi-v7a-release.apk",
+        "universal": "https://github.com/netracore/NetraPlay/releases/download/v4.0.1/netraplay.4.0.1-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": "https://github.com/netracore/NetraPlay/releases/download/v4.0.1/netraplay.4.0.1-win-release.exe"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "IMPROVE",
+        "text": "Improved responsive UI and Android TV remote navigation."
+      },
+      {
+        "type": "IMPROVE",
+        "text": "Enhanced desktop search, WebView player, and source selection."
+      },
+      {
+        "type": "IMPROVE",
+        "text": "Updated Shaka Player and improved buffering and playback recovery."
+      },
+      {
+        "type": "IMPROVE",
+        "text": "Improved Watch Party synchronization and host migration."
+      },
+      {
+        "type": "IMPROVE",
+        "text": "Optimized library synchronization and stream extraction."
+      },
+      {
+        "type": "FIX",
+        "text": "Fixed TV navigation, UI layout issues, and extractor URL validation."
+      }
+    ]
+  },
+  {
+    "version": "4.0.0",
+    "date": "October 07, 2026",
+    "icon": "fa-atom",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
     "downloadUrl": [
       {
         "arm64-v8a": "https://github.com/netracore/NetraPlay/releases/download/v4.0.0/netraplay.4.0.0-arm64-v8a-release.apk",
