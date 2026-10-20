@@ -1,10 +1,59 @@
 [
   {
-    "version": "4.0.1 (Latest)",
-    "date": "October 10, 2026",
+    "version": "4.0.2 (Latest)",
+    "date": "October 20, 2026",
     "icon": "fa-rocket",
     "color": "bg-primary-500",
     "ring": "ring-primary-500/10",
+    "downloadUrl": [
+      {
+        "arm64-v8a": "https://github.com/netracore/NetraPlay/releases/download/v4.0.2/netraplay.4.0.2-arm64-v8a-release.apk",
+        "armeabi-v7a": "https://github.com/netracore/NetraPlay/releases/download/v4.0.2/netraplay.4.0.2-armeabi-v7a-release.apk",
+        "universal": "https://github.com/netracore/NetraPlay/releases/download/v4.0.2/netraplay.4.0.2-universal-release.apk"
+      }
+    ],
+    "desktopDownloadUrl": [
+      {
+        "windows-x64": "https://github.com/netracore/NetraPlay/releases/download/v4.0.2/netraplay.4.0.2-win-release.exe"
+      }
+    ],
+    "changelog": [
+      {
+        "type": "NEW",
+        "text": "Added CD/DVD visual scan speeds (4x, 8x, 16x) with touch slide gesture and automatic audio muting."
+      },
+      {
+        "type": "IMPROVE",
+        "text": "Modernized sidebar navigation across Mobile, Desktop, and TV with stepped player remote controls."
+      },
+      {
+        "type": "IMPROVE",
+        "text": "Offloaded M3U playlist and XMLTV EPG parsing to background isolates for stutter-free UI performance."
+      },
+      {
+        "type": "IMPROVE",
+        "text": "Redesigned in-player IPTV channel drawer with frosted glass styling, sticky header, and focus state."
+      },
+      {
+        "type": "IMPROVE",
+        "text": "Enhanced live TV channel switching to retain HTTP headers and automatically lock to the live playback edge."
+      },
+      {
+        "type": "IMPROVE",
+        "text": "Added desktop disguised HLS video segment detection (.woff, .css, .svg) and auto MPEG-TS sync-byte sniffing."
+      },
+      {
+        "type": "REFACTOR",
+        "text": "Streamlined core architecture by removing torrent streaming and libtorrent native dependencies."
+      }
+    ]
+  },
+  {
+    "version": "4.0.1",
+    "date": "October 10, 2026",
+    "icon": "fa-plane",
+    "color": "bg-gray-500",
+    "ring": "ring-gray-500/10",
     "downloadUrl": [
       {
         "arm64-v8a": "https://github.com/netracore/NetraPlay/releases/download/v4.0.1/netraplay.4.0.1-arm64-v8a-release.apk",
