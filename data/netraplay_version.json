@@ -1,46 +1,50 @@
 {
-  "latestVersion": "4.0.1",
-  "latestBuildNumber": 2048,
-  "forceUpdate": false,
+  "latestVersion": "4.0.2",
+  "latestBuildNumber": 2049,
+  "forceUpdate": true,
   "releaseNotes": "- UI modernization and navigation improvements, and many more...\n\nTeam Netra",
   "changelog": [
     {
-      "type": "IMPROVE",
-      "text": "Improved responsive UI and Android TV remote navigation."
+      "type": "NEW",
+      "text": "Added 4x, 8x, and 16x scan speeds with swipe gestures and auto-mute."
     },
     {
       "type": "IMPROVE",
-      "text": "Enhanced desktop search, WebView player, and source selection."
+      "text": "Improved cross-platform sidebar navigation and stepped remote controls."
     },
     {
       "type": "IMPROVE",
-      "text": "Updated Shaka Player and improved buffering and playback recovery."
+      "text": "Moved M3U and XMLTV parsing to background isolates for smoother UI."
     },
     {
       "type": "IMPROVE",
-      "text": "Improved Watch Party synchronization and host migration."
+      "text": "Redesigned IPTV channel drawer with frosted glass and better focus states."
     },
     {
       "type": "IMPROVE",
-      "text": "Optimized library synchronization and stream extraction."
+      "text": "Preserved HTTP headers during channel switching and locked playback to live."
     },
     {
-      "type": "FIX",
-      "text": "Fixed TV navigation, UI layout issues, and extractor URL validation."
+      "type": "IMPROVE",
+      "text": "Added disguised HLS segment detection and MPEG-TS sync-byte detection on desktop."
+    },
+    {
+      "type": "REFACTOR",
+      "text": "Removed torrent streaming and libtorrent dependencies."
     }
   ],
   "updateUrl": "https://netraplay.vercel.app/download",
   "downloadUrl": [
     {
-      "x86_64": "https://github.com/netracore/NetraPlay/releases/download/v4.0.1/netraplay.4.0.1-x86_64-release.apk",
-      "arm64-v8a": "https://github.com/netracore/NetraPlay/releases/download/v4.0.1/netraplay.4.0.1-arm64-v8a-release.apk",
-      "armeabi-v7a": "https://github.com/netracore/NetraPlay/releases/download/v4.0.1/netraplay.4.0.1-armeabi-v7a-release.apk",
-      "universal": "https://github.com/netracore/NetraPlay/releases/download/v4.0.1/netraplay.4.0.1-universal-release.apk"
+      "x86_64": "https://github.com/netracore/NetraPlay/releases/download/v4.0.2/netraplay.4.0.2-x86_64-release.apk",
+      "arm64-v8a": "https://github.com/netracore/NetraPlay/releases/download/v4.0.2/netraplay.4.0.2-arm64-v8a-release.apk",
+      "armeabi-v7a": "https://github.com/netracore/NetraPlay/releases/download/v4.0.2/netraplay.4.0.2-armeabi-v7a-release.apk",
+      "universal": "https://github.com/netracore/NetraPlay/releases/download/v4.0.2/netraplay.4.0.2-universal-release.apk"
     }
   ],
   "desktopDownloadUrl": [
     {
-      "windows-x64": "https://github.com/netracore/NetraPlay/releases/download/v4.0.1/netraplay.4.0.1-win-release.exe"
+      "windows-x64": "https://github.com/netracore/NetraPlay/releases/download/v4.0.2/netraplay.4.0.2-win-release.exe"
     }
   ],
   "lockApp": false,
